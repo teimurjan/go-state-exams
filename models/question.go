@@ -47,3 +47,12 @@ func NewQuestion(questionStr string) *Question {
 
 	return &question
 }
+
+func (q *Question) String() string {
+	answer, ok := q.Variants[q.Answer]
+	if !ok {
+		answer = q.Answer
+	}
+
+	return q.Title + "\n*Answer: " + answer
+}

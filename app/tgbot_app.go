@@ -81,12 +81,7 @@ func (tgBotApp *tgBotApp) handleText(update *tgbotapi.Update) {
 	msgText := ""
 	foundQuestions := tgBotApp.questionsRepo.Search(update.Message.Text)
 	for i, question := range foundQuestions {
-		answer, ok := question.Variants[question.Answer]
-		if !ok {
-			answer = question.Answer
-		}
-
-		msgText += strconv.Itoa(i+1) + ". " + question.Title + "\n*Answer: " + answer + "*\n\n"
+		msgText += strconv.Itoa(i+1) + ". " + question.String() + "\n\n"
 	}
 
 	msg := tgbotapi.NewMessage(update.Message.Chat.ID, msgText)
