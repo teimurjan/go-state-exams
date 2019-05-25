@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/teimurjan/go-state-exams/models"
+	"github.com/teimurjan/go-state-exams/utils"
 )
 
 const MaxResultsPerQuery = 10
@@ -49,7 +50,7 @@ func (repo *questionRepo) GetAll() []models.Question {
 func (repo *questionRepo) Search(query string) []models.Question {
 	matchingQuestions := make([]models.Question, 0, MaxResultsPerQuery)
 	for _, question := range repo.questions {
-		if strings.Contains(question.Title, query) {
+		if utils.CaseInsensetiveContains(question.Title, query) {
 			matchingQuestions = append(matchingQuestions, question)
 
 			if len(matchingQuestions) == MaxResultsPerQuery {
