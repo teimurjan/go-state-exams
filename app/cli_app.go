@@ -1,8 +1,11 @@
 package app
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strconv"
+	"strings"
 
 	"github.com/teimurjan/go-state-exams/repo"
 )
@@ -19,19 +22,23 @@ func NewCLIApp(questionsRepo repo.QuestionRepo) *CLIApp {
 
 // Start starts CLI app
 func (app *CLIApp) Start() {
-	var responseText string
 	var input string
 
+	reader := bufio.NewReader(os.Stdin)
+
 	for input != "/quit" {
+		responseText := ""
+
 		fmt.Println("Enter a text to search:")
 
-		fmt.Scanln(&input)
+		input, _ = reader.ReadString('\n')
 
-		foundQuestions := app.questionsRepo.Search(input)
+		foundQuestions := app.questionsRepo.Search(strings.TrimSpace(input))
 		for i, question := range foundQuestions {
 			responseText += strconv.Itoa(i+1) + ". " + question.String() + "\n\n"
 		}
 
 		fmt.Println(responseText)
+
 	}
 }
