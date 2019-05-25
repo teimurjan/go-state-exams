@@ -4,7 +4,7 @@ import "github.com/kelseyhightower/envconfig"
 
 // Config object
 type Config struct {
-	TelegramBotToken string `envconfig:"TELEGRAM_BOT_TOKEN" required:"true"`
+	TelegramBotToken string `envconfig:"TELEGRAM_BOT_TOKEN"`
 	UseWebhook       bool   `envconfig:"USE_WEBHOOK"`
 	HerokuBaseURL    string `envconfig:"HEROKU_BASE_URL"`
 	Debug            bool   `envconfig:"DEBUG"`
