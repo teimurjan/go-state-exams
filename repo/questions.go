@@ -50,7 +50,7 @@ func (repo *questionRepo) GetAll() []models.Question {
 func (repo *questionRepo) Search(query string) []models.Question {
 	matchingQuestions := make([]models.Question, 0, MaxResultsPerQuery)
 	for _, question := range repo.questions {
-		if utils.CaseInsensetiveContains(question.Title, query) {
+		if utils.CaseInsensetiveContains(question.SearchString(), query) {
 			matchingQuestions = append(matchingQuestions, question)
 
 			if len(matchingQuestions) == MaxResultsPerQuery {

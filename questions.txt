@@ -7843,7 +7843,7 @@ d) long
 Answer: c
 Explanation: None.
 
-1006. QUESTION:
+1006. QUESTION: 
 a) 16.34
 b) 16.566666644
 c) 16.46666666666667
@@ -7855,7 +7855,7 @@ $ javac average.java
 $ java average
 16.46666666666667
 
-1007. QUESTION:
+1007. QUESTION: 
 a) Infinity
 b) 0.0
 c) NaN
@@ -7863,7 +7863,7 @@ d) all of the mentioned
 Answer: d
 Explanation:  For floating point literals, we have constant value to represent (10/0.0) infinity either positive or negative and also have NaN (not a number for undefined like 0/0.0), but for the integral type, we don’t have any constant that’s why we get an arithmetic exception.
 
-1008. QUESTION:
+1008. QUESTION: 
 a) 25
 b) 24
 c) 32
@@ -7875,7 +7875,7 @@ $ javac increment.java
 $ java increment
 32
 
-1009. QUESTION:
+1009. QUESTION: 
 a) 301.5656
 b) 301
 c) 301.56
@@ -7927,7 +7927,7 @@ d) boolean b4 = ‘true’
 Answer: c
 Explanation:  Boolean can only be assigned true or false literals.
 
-1015. QUESTION:
+1015. QUESTION: 
 a) i i i i i
 b) 0 1 2 3 4
 c) i j k l m
@@ -7948,7 +7948,7 @@ $ javac array_output.java
 $ java array_output
 i i i i i
 
-1016. QUESTION:
+1016. QUESTION: 
 a) 66
 b) 67
 c) 65
@@ -7960,7 +7960,7 @@ $ javac mainclass.java
 $ java mainclass
 66
 
-1017. QUESTION:
+1017. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -7972,7 +7972,7 @@ $ javac mainclass.java
 $ java mainclass
 true
 
-1018. QUESTION:
+1018. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -7984,7 +7984,7 @@ $ javac booloperators.java
 $ java booloperators
 false
 
-1019. QUESTION:
+1019. QUESTION: 
 a) 162
 b) 65 97
 c) 67 95
@@ -8010,7 +8010,7 @@ b) False
 Answer: b
 Explanation: Enum does not have a public constructor.
 
-1022. QUESTION:
+1022. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -8026,7 +8026,7 @@ d) Sorted in descending order of names of Enums
 Answer: a
 Explanation: Tree Set will sort the values in the order in which Enum constants are declared.
 
-1024. QUESTION:
+1024. QUESTION: 
 a) Runtime Error
 b) Compilation Error
 c) It runs successfully
@@ -8034,7 +8034,7 @@ d) EnumNotDefined Exception
 Answer: b
 Explanation: Enum types cannot extend class.
 
-1025. QUESTION:
+1025. QUESTION: 
 a) Runtime Error
 b) EnumNotDefined Exception
 c) It runs successfully
@@ -8277,7 +8277,7 @@ d) none of the mentioned
 Answer: b
 Explanation: Keywords are specially reserved words which can not be used for naming a user defined variable, example : class, int, for etc.
 
-1055. QUESTION:
+1055. QUESTION: 
 a) 38
 b) 39
 c) 40
@@ -8289,7 +8289,7 @@ $ javac evaluate.java
 $ java evaluate
 40
 
-1056. QUESTION:
+1056. QUESTION: 
 a) 0 2 4 6 8
 b) 1 2 3 4 5
 c) 0 1 2 3 4 5 6 7 8 9
@@ -8310,7 +8310,7 @@ $ javac array_output.java
 $ java array_output
 1 2 3 4 5
 
-1057. QUESTION:
+1057. QUESTION: 
 a) 5 6 5 6
 b) 5 6 5
 c) Runtime error
@@ -8329,7 +8329,7 @@ d)
 Answer: d
 Explanation: all string literals must begin and end in the same line.
 
-1059. QUESTION:
+1059. QUESTION: 
 a) 5.0
 b) 25.0
 c) 7.0
@@ -8350,7 +8350,7 @@ d) None of the mentioned
 Answer: b
 Explanation: None.
 
-1061. QUESTION:
+1061. QUESTION: 
 a) prototype( )
 b) prototype(void)
 c) public prototype(void)
@@ -8358,7 +8358,7 @@ d) public prototype( )
 Answer:  d
 Explanation: None.
 
-1062. QUESTION:
+1062. QUESTION: 
 a) b cannot contain value 100, limited by its range
 b) * operator has converted b * 50 into int, which can not be converted to byte without casting
 c) b cannot contain value 50
@@ -8382,7 +8382,7 @@ d) Integer value assigned to floating type
 Answer: a
 Explanation: None.
 
-1065. QUESTION:
+1065. QUESTION: 
 a) E U
 b) U E
 c) V E
@@ -8394,7 +8394,7 @@ $ javac char_increment.java
 $ java char_increment
 E U
 
-1066. QUESTION:
+1066. QUESTION: 
 a) 38 43
 b) 39 44
 c) 295 300
@@ -8406,7 +8406,7 @@ $ javac conversion.java
 $ java conversion
 39 44
 
-1067. QUESTION:
+1067. QUESTION: 
 a) b is : 2
 b) b is : 1
 c) Compilation Error
@@ -8414,7 +8414,7 @@ d) An exception is thrown at runtime
 Answer: c
 Explanation: The code does not compile because the method calculate() in class A is final and so cannot be overridden by method of class b.
 
-1068. QUESTION:
+1068. QUESTION: 
 a) 1 1
 b) 1 0
 c) 1 0 3
@@ -8426,7 +8426,7 @@ $ javac main_arguments.java
 $ java main_arguments
 1 2 3
 
-1069. QUESTION:
+1069. QUESTION: 
 a) Hello c
 b) Hello
 c) Hello world
@@ -8453,7 +8453,7 @@ d) int arr[] = int [5] new
 Answer: d
 Explanation: Operator new must be succeeded by array type and array size.
 
-1072. QUESTION:
+1072. QUESTION: 
 a) 0
 b) value stored in arr[0].
 c) 00000
@@ -8478,7 +8478,7 @@ d) None of the mentioned
 Answer: a
 Explanation: None.
 
-1075. QUESTION:
+1075. QUESTION: 
 a) 0 2 4 6 8
 b) 1 3 5 7 9
 c) 0 1 2 3 4 5 6 7 8 9
@@ -8499,7 +8499,7 @@ $ javac array_output.java
 $ java array_output
 0 2 4 6 8
 
-1076. QUESTION:
+1076. QUESTION: 
 a) 11
 b) 10
 c) 13
@@ -8511,7 +8511,7 @@ $ javac multidimention_array.java
 $ java multidimention_array
 10
 
-1077. QUESTION:
+1077. QUESTION: 
 a) 3
 b) 0
 c) 6
@@ -8532,7 +8532,7 @@ $ javac evaluate.java
 $ java evaluate
 1
 
-1078. QUESTION:
+1078. QUESTION: 
 a) 1 2 3 4 5 6 7 8 9 10
 b) 0 1 2 3 4 5 6 7 8 9 10
 c) i j k l m n o p q r
@@ -8544,7 +8544,7 @@ $ javac array_output.java
 $ java array_output
 i i i i i i i i i i
 
-1079. QUESTION:
+1079. QUESTION: 
 a) 8
 b) 9
 c) 10
@@ -8556,7 +8556,7 @@ $ javac array_output.java
 $ java array_output
 9
 
-1080. QUESTION:
+1080. QUESTION: 
 a) ‘b’ and ‘d’ are int
 b) ‘b’ and ‘d’ are arrays of type int
 c) ‘b’ is int variable; ‘d’ is int array
@@ -8568,7 +8568,7 @@ Explanation:  If [] is declared after variable it is applicable only to one vari
 Answer: d
 Explanation: Operator new must be succeeded by array type and array size. The order is important and determines the type of variable.
 
-1082. QUESTION:
+1082. QUESTION: 
 a) 0
 b) value stored in arr[0].
 c) 00000
@@ -8576,7 +8576,7 @@ d) Garbage value
 Answer: d
 Explanation: arr is an array variable, it is pointing to array of integers. Printing arr will print garbage value. It is not same as printing arr[0].
 
-1083. QUESTION:
+1083. QUESTION: 
 a) ArrayIndexOutOfBoundsException
 b) ArrayStoreException
 c) Compilation Error
@@ -8646,7 +8646,7 @@ d) None of the mentioned
 Answer: c
 Explanation: Modulus operator can be applied to both integers and floating point numbers.
 
-1092. QUESTION:
+1092. QUESTION: 
 a) 1, 2 & 3
 b) 1 & 4
 c) 1, 2, 3 & 4
@@ -8670,7 +8670,7 @@ d) None of the mentioned
 Answer: d
 Explanation: None.
 
-1095. QUESTION:
+1095. QUESTION: 
 a) 1 1
 b) 0 1
 c) 1.5 1
@@ -8682,7 +8682,7 @@ $ javac increment.java
 $ java increment
 1.5 1
 
-1096. QUESTION:
+1096. QUESTION: 
 a) 5.640000000000001 5
 b) 5.640000000000001 5.0
 c) 5 5
@@ -8694,7 +8694,7 @@ $ javac Modulus.java
 $ java Modulus
 5.640000000000001 5
 
-1097. QUESTION:
+1097. QUESTION: 
 a) 25
 b) 24
 c) 32
@@ -8712,7 +8712,7 @@ b) False
 Answer: a
 Explanation: Both data types have different memory representation that’s why 8-byte integral data type can be stored to 4-byte floating point data type.
 
-1099. QUESTION:
+1099. QUESTION: 
 a) 3 2 4
 b) 3 2 3
 c) 2 3 4
@@ -8764,7 +8764,7 @@ d) The right shift operator automatically fills the higher order bits with 0
 Answer: d
 Explanation: The right shift operator automatically fills the higher order bit with its previous contents each time a shift occurs. This also preserves the sign of the value.
 
-1105. QUESTION:
+1105. QUESTION: 
 a) 42 42
 b) 43 43
 c) 42 -43
@@ -8776,7 +8776,7 @@ $ javac bitwise_operator.java
 $ java bitwise_operator
 42 -43
 
-1106. QUESTION:
+1106. QUESTION: 
 a) 7 2
 b) 7 7
 c) 7 5
@@ -8797,7 +8797,7 @@ $ javac bitwise_operator.java
 $ java bitwise_operator
 7 2
 
-1107. QUESTION:
+1107. QUESTION: 
 a) 0 64
 b) 64 0
 c) 0 256
@@ -8809,7 +8809,7 @@ $ javac leftshift_operator.java
 $ java leftshift_operator
 256 0
 
-1108. QUESTION:
+1108. QUESTION: 
 a) 10
 b) 5
 c) 2
@@ -8821,7 +8821,7 @@ $ javac rightshift_operator.java
 $ java rightshift_operator
 5
 
-1109. QUESTION:
+1109. QUESTION: 
 a) 3 1 6
 b) 2 2 3
 c) 2 3 4
@@ -8849,7 +8849,7 @@ d) None of the mentioned
 Answer: c
 Explanation: All relational operators return a boolean value ie. true and false.
 
-1112. QUESTION:
+1112. QUESTION: 
 a) 3 & 2
 b) 1 & 4
 c) 1, 2 & 4
@@ -8873,7 +8873,7 @@ d) true and false are non numeric values
 Answer: d
 Explanation: True and false are keywords, they are non numeric values which do not relate to zero or non zero numbers. true and false are boolean values.
 
-1115. QUESTION:
+1115. QUESTION: 
 a) 1
 b) 0
 c) true
@@ -8894,7 +8894,7 @@ $ javac Relational_operator.java
 $ java Relational_operator
 false
 
-1116. QUESTION:
+1116. QUESTION: 
 a) false false
 b) true ture
 c) true false
@@ -8906,7 +8906,7 @@ $ javac bool_operator.java
 $ java bool_operator
 false true
 
-1117. QUESTION:
+1117. QUESTION: 
 a) 0
 b) 1
 c) 3
@@ -8927,7 +8927,7 @@ $ javac ternary_operator.java
 $ java ternary_operator
 3
 
-1118. QUESTION:
+1118. QUESTION: 
 a) 1
 b) 2
 c) Runtime error owing to division by zero in if condition
@@ -8939,7 +8939,7 @@ $ javac Output.java
 $ java Output
 2
 
-1119. QUESTION:
+1119. QUESTION: 
 a) 0
 b) 1
 c) false
@@ -8959,7 +8959,7 @@ d) >>
 Answer: a
 Explanation: Order of precedence is (highest to lowest) a -> b -> c -> d.
 
-1121. QUESTION:
+1121. QUESTION: 
 a) Integer
 b) Floating – point numbers
 c) Boolean
@@ -8967,7 +8967,7 @@ d) None of the mentioned
 Answer: c
 Explanation: The controlling condition of ternary operator must evaluate to boolean.
 
-1122. QUESTION:
+1122. QUESTION: 
 a) 0
 b) 1
 c) 9
@@ -8975,7 +8975,7 @@ d) 8
 Answer: d
 Explanation: None.
 
-1123. QUESTION:
+1123. QUESTION: 
 a) 1 -> 2 -> 3
 b) 2 -> 1 -> 3
 c) 3 -> 2 -> 1
@@ -8991,7 +8991,7 @@ d) Addition operator, +, and subtraction operator have equal precedence
 Answer: c
 Explanation: Division operator, /, has equal precedence as of multiplication operator. In expression involving multiplication and division evaluation of expression will begin from the right side when no brackets are used.
 
-1125. QUESTION:
+1125. QUESTION: 
 a) 10
 b) 11
 c) 12
@@ -9003,7 +9003,7 @@ $ javac operators.java
 $ java operators
 12
 
-1126. QUESTION:
+1126. QUESTION: 
 a) 24 8
 b) 24 9
 c) 27 8
@@ -9024,7 +9024,7 @@ $ javac operators.java
 $ java operators
 27 9
 
-1127. QUESTION:
+1127. QUESTION: 
 a) compile and runs fine
 b) 20
 c) run time error
@@ -9032,7 +9032,7 @@ d) compile time error
 Answer: d
 Explanation: None.
 
-1128. QUESTION:
+1128. QUESTION: 
 a) 1 will give better performance as it has no parentheses
 b) 2 will give better performance as it has parentheses
 c) Both 1 & 2 will give equal performance
@@ -9040,7 +9040,7 @@ d) Dependent on the computer system
 Answer: c
 Explanation: Parentheses do not degrade the performance of the program. Adding parentheses to reduce ambiguity does not negatively affect your system.
 
-1129. QUESTION:
+1129. QUESTION: 
 a) compile time error
 b) runtime error
 c) a=20 b=0 c=20 d=1
@@ -9092,7 +9092,7 @@ d) it is possible to create a nested switch statements
 Answer: b
 Explanation: No two case constants in the same switch can have identical values.
 
-1135. QUESTION:
+1135. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -9104,7 +9104,7 @@ $ javac selection_statements.java
 $ java selection_statements
 2
 
-1136. QUESTION:
+1136. QUESTION: 
 a) 5
 b) 6
 c) 14
@@ -9125,7 +9125,7 @@ $ javac comma_operator.java
 $ java comma_operator
 6
 
-1137. QUESTION:
+1137. QUESTION: 
 a) 1 3 5 7
 b) 2 4 6 8
 c) 1 3 5 7 9
@@ -9137,7 +9137,7 @@ $ javac jump_statments.java
 $ java jump_statments
 1 3 5 7 9
 
-1138. QUESTION:
+1138. QUESTION: 
 a) Hello
 b) run time error
 c) Hello world
@@ -9145,7 +9145,7 @@ d) compile time error
 Answer: d
 Explanation: Every final variable is compile time constant.
 
-1139. QUESTION:
+1139. QUESTION: 
 a) 5 10
 b) 10 5
 c) 5
@@ -9157,7 +9157,7 @@ $ javac Output.java
 $ java Output
 10
 
-1140. QUESTION:
+1140. QUESTION: 
 a) 1 2
 b) 2 3
 c) 1 3
@@ -9195,7 +9195,7 @@ d) do
 Answer: c
 Explanation: Break is used with a switch statement to shift control out of switch.
 
-1145. QUESTION:
+1145. QUESTION: 
 a) int and float
 b) byte and short
 c) char and long
@@ -9393,7 +9393,7 @@ d) It is a synonym for JIT
 Answer: b
 Explanation: Interpreters read high level language (interprets it) and execute the program. Interpreters are normally not passing through byte-code and jit compilation.
 
-1170. QUESTION:
+1170. QUESTION: 
 a) Memory address of allocated memory of object
 b) NULL
 c) Any arbitrary pointer
@@ -9433,7 +9433,7 @@ d) main() method must be made public
 Answer: a
 Explanation: Every class does not need to have a main() method, there can be only one main() method which is made public.
 
-1175. QUESTION:
+1175. QUESTION: 
 a) 9
 b) 8
 c) Compilation error
@@ -9453,7 +9453,7 @@ d) Public method can be accessed by calling object of the public class
 Answer: a
 Explanation: None.
 
-1177. QUESTION:
+1177. QUESTION: 
 a) 12
 b) 200
 c) 400
@@ -9465,7 +9465,7 @@ $ javac mainclass.java
 $ java mainclass
 200
 
-1178. QUESTION:
+1178. QUESTION: 
 a) 1
 b) 2
 c) Runtime error
@@ -9477,7 +9477,7 @@ $ javac mainclass.java
 $ java mainclass
 1
 
-1179. QUESTION:
+1179. QUESTION: 
 a) 0
 b) 1
 c) Runtime error
@@ -9529,7 +9529,7 @@ d) All object of a class are allotted memory for the methods defined in the clas
 Answer: d
 Explanation: All object of class share a single copy of methods defined in a class, Methods are allotted memory only once. All the objects of the class have access to methods of that class are allotted memory only for the variables not for the methods.
 
-1185. QUESTION:
+1185. QUESTION: 
 a) 0
 b) 1
 c) 6
@@ -9541,7 +9541,7 @@ $ Prameterized_method.java
 $ Prameterized_method
 6
 
-1186. QUESTION:
+1186. QUESTION: 
 a) false
 b) true
 c) 0
@@ -9562,7 +9562,7 @@ $ javac Output.java
 $ java Output 
 true
 
-1187. QUESTION:
+1187. QUESTION: 
 a) 0
 b) 1
 c) 25
@@ -9574,7 +9574,7 @@ $ javac Output.java
 $ java Output
 25
 
-1188. QUESTION:
+1188. QUESTION: 
 a) only sum(10)
 b) only sum(10,20)
 c) only sum(10) & sum(10,20)
@@ -9582,7 +9582,7 @@ d) all of the mentioned
 Answer: d
 Explanation: sum is a variable argument method and hence it can take any number as argument.
 
-1189. QUESTION:
+1189. QUESTION: 
 a) 0
 b) 1
 c) 30
@@ -9634,7 +9634,7 @@ d) none of the mentioned
 Answer: a
 Explanation: None.
 
-1195. QUESTION:
+1195. QUESTION: 
 a) 100
 b) 150
 c) 200
@@ -9646,7 +9646,7 @@ $ constructor_output.java
 $ constructor_output
 150
 
-1196. QUESTION:
+1196. QUESTION: 
 a) compile time error
 b) run time error
 c) compile and runs fine
@@ -9654,7 +9654,7 @@ d) unreported exception java.io.IOException in default constructor
 Answer: a
 Explanation: If parent class constructor throws any checked exception, compulsory child class constructor should throw the same checked exception as its parent, otherwise code won’t compile.
 
-1197. QUESTION:
+1197. QUESTION: 
 a) 150
 b) 200
 c) Run time error
@@ -9674,7 +9674,7 @@ d) finalize() method must be declared protected
 Answer: c
 Explanation: finalize() method is called just prior to garbage collection. it is not called when object goes out of scope.
 
-1199. QUESTION:
+1199. QUESTION: 
 a) 0 0
 b) 5 6
 c) 6 5
@@ -9874,7 +9874,7 @@ d) Recursion
 Answer: d
 Explanation: None.
 
-1224. QUESTION:
+1224. QUESTION: 
 a) int float method
 b) float int method
 c) compile time error
@@ -9882,7 +9882,7 @@ d) run time error
 Answer: c
 Explanation: While resolving overloaded method, compiler automatically promotes if exact match is not found. But in this case, which one to promote is an ambiguity.
 
-1225. QUESTION:
+1225. QUESTION: 
 a) 5
 b) 6
 c) 7
@@ -9903,7 +9903,7 @@ $ javac Overload_methods.java
 $ java Overload_methods
 7
 
-1226. QUESTION:
+1226. QUESTION: 
 a) 6
 b) 7
 c) 8
@@ -9915,7 +9915,7 @@ $ javac Overload_methods.java
 $ java Overload_methods
 8
 
-1227. QUESTION:
+1227. QUESTION: 
 a) 6 6
 b) 6.4 6.4
 c) 6.4 6
@@ -9936,7 +9936,7 @@ $ javac Overload_methods.java
 $ java Overload_methods 
 4 6.4
 
-1228. QUESTION:
+1228. QUESTION: 
 a) 10 20
 b) 20 10
 c) 20 40
@@ -9948,7 +9948,7 @@ $ javac Output.java
 $ java Output
 10 20
 
-1229. QUESTION:
+1229. QUESTION: 
 a) 10 20
 b) 20 10
 c) 20 40
@@ -10000,7 +10000,7 @@ d) protected members of a class can be inherited by a subclass, and become priva
 Answer: c
 Explanation: private members of a class can not be inherited by a subclass.
 
-1235. QUESTION:
+1235. QUESTION: 
 a) 3 3
 b) 2 3
 c) Runtime Error
@@ -10012,7 +10012,7 @@ $ javac access_specifier.java
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	The field access.y is not visible
 
-1236. QUESTION:
+1236. QUESTION: 
 a) 2 3
 b) 3 3
 c) Runtime Error
@@ -10033,7 +10033,7 @@ $ javac access_specifier.java
 $ java access_specifier 
 3 3
 
-1237. QUESTION:
+1237. QUESTION: 
 a) 7 7.4
 b) 6 6.4
 c) 7 9
@@ -10179,7 +10179,7 @@ d) finalize()
 Answer: a
 Explanation: main() method must be declared static, main() method is called by Java runtime system before any object of any class exists.
 
-1255. QUESTION:
+1255. QUESTION: 
 a) 1 2
 b) 2 3
 c) 3 2
@@ -10200,7 +10200,7 @@ $ javac static_specifier.java
 $ java static_specifier
 1 5
 
-1256. QUESTION:
+1256. QUESTION: 
 a) 1 2
 b) 1 1
 c) 2 2
@@ -10212,7 +10212,7 @@ $ javac static_use.java
 $ java static_use 
 2 2
 
-1257. QUESTION:
+1257. QUESTION: 
 a) 7 7
 b) 6 6
 c) 7 9
@@ -10233,7 +10233,7 @@ $ javac static_use.java
 $ java static_use
 7 9
 
-1258. QUESTION:
+1258. QUESTION: 
 a) 1 2
 b) 1 2 3
 c) 1 2 3 4
@@ -10245,7 +10245,7 @@ $ javac Output.java
 $ java Output
 1 2 3
 
-1259. QUESTION:
+1259. QUESTION: 
 a) 10 5
 b) 5 10
 c) 0 10
@@ -10297,7 +10297,7 @@ d) Java defines a peer class of String, called StringBuffer, which allows string
 Answer: b
 Explanation: Strings in Java are immutable that is they can not be modified.
 
-1265. QUESTION:
+1265. QUESTION: 
 a) I
 b) like
 c) Java
@@ -10309,7 +10309,7 @@ $ javac string_demo.java
 $ java string_demo
 IlikeJava
 
-1266. QUESTION:
+1266. QUESTION: 
 a) I
 b) L
 c) K
@@ -10321,7 +10321,7 @@ $ javac string_class.java
 $ java string_class
 I
 
-1267. QUESTION:
+1267. QUESTION: 
 a) 9
 b) 10
 c) 11
@@ -10333,7 +10333,7 @@ $ javac string_class.java
 $ java string_class 
 11
 
-1268. QUESTION:
+1268. QUESTION: 
 a) hello hello
 b) world world
 c) hello world
@@ -10345,7 +10345,7 @@ $ javac string_class.java
 $ java string_class
 hello world
 
-1269. QUESTION:
+1269. QUESTION: 
 a) false false
 b) true true
 c) true false
@@ -10397,7 +10397,7 @@ d) If a method is returning a value the calling statement must have a variable t
 Answer: d
 Explanation: Even if a method is returning a value, it is not necessary to store that value.
 
-1275. QUESTION:
+1275. QUESTION: 
 a) 0
 b) 1
 c) 6
@@ -10409,7 +10409,7 @@ $ Prameterized_method.java
 $ Prameterized_method
 6
 
-1276. QUESTION:
+1276. QUESTION: 
 a) false
 b) true
 c) 0
@@ -10421,7 +10421,7 @@ $ javac Output.java
 $ java Output 
 true
 
-1277. QUESTION:
+1277. QUESTION: 
 a) 0
 b) 5
 c) 25
@@ -10433,7 +10433,7 @@ $ javac Output.java
 $ java Output
 5
 
-1278. QUESTION:
+1278. QUESTION: 
 a) 1
 b) 2
 c) Runtime Error
@@ -10445,7 +10445,7 @@ $ javac Output.java
 Error: Main method not found in class Output, please define the main method as:
    public static void main(String[] args)
 
-1279. QUESTION:
+1279. QUESTION: 
 a) 0
 b) 1
 c) 25
@@ -10498,7 +10498,7 @@ d) Only ASCII characters can be converted
 Answer: b
 Explanation: All command Line arguments are passed as a string. We must convert numerical value to their internal forms manually.
 
-1285. QUESTION:
+1285. QUESTION: 
 a) java
 b) Output
 c) This
@@ -10510,7 +10510,7 @@ $ javac Output.javac
 java Output This is a command Line
 This
 
-1286. QUESTION:
+1286. QUESTION: 
 a) java
 b) is
 c) This
@@ -10522,7 +10522,7 @@ $ javac Output.javac
 java Output This is a command Line
 command
 
-1287. QUESTION:
+1287. QUESTION: 
 a) This
 b) java Output This is a command Line
 c) This is a command Line
@@ -10534,7 +10534,7 @@ $ javac Output.javac
 java Output This is a command Line
 This is a command Line
 
-1288. QUESTION:
+1288. QUESTION: 
 a) java
 b) 10
 c) 20
@@ -10546,7 +10546,7 @@ $ javac Output.javac
 java Output command Line 10 A b 4 N
 20
 
-1289. QUESTION:
+1289. QUESTION: 
 a) java
 b) 10
 c) b
@@ -10558,7 +10558,7 @@ $ javac Output.javac
 java Output command Line 10 A b 4 N
 N
 
-1290. QUESTION:
+1290. QUESTION: 
 a) Compile time error
 b) Compilation but runtime error
 c) Compilation and output Rakesh :-Please pay Rs.2000
@@ -10566,7 +10566,7 @@ d) Compilation and output Sharma :-Please pay Rs.2000
 Answer: a
 Explanation: Main method is static and cannot access non static variable a.
 
-1291. QUESTION:
+1291. QUESTION: 
 a) The snippet compiles, runs and prints 0
 b) The snippet compiles, runs and prints 1
 c) The snippet does not compile
@@ -10574,7 +10574,7 @@ d) The snippet compiles and runs but does not print anything
 Answer: d
 Explanation: As no argument is passed to the code, the length of args is 0. So the code will not print.
 
-1292. QUESTION:
+1292. QUESTION: 
 a) 1 2
 b) 2 3
 c) 1 2 3
@@ -10582,7 +10582,7 @@ d) Compilation error
 Answer: b
 Explanation: The index of array starts with 0. Since the loop is starting with 1 it will print 2 3.
 
-1293. QUESTION:
+1293. QUESTION: 
 a) The snippet compiles, runs and prints “java demo”
 b) The snippet compiles, runs and prints “java code”
 c) The snippet compiles, runs and prints “demo code”
@@ -10590,7 +10590,7 @@ d) The snippet compiles, runs and prints “I code”
 Answer: d
 Explanation: The index of array starts with 0 till length – 1. Hence it would print “I code”.
 
-1294. QUESTION:
+1294. QUESTION: 
 a) Compile time error
 b) Output would be “hello”
 c) Output would be “there”
@@ -10622,7 +10622,7 @@ d) @Parameter
 Answer: d
 Explanation:  @Parameter, @Parameter(names = { “-log”, “-verbose” }, description = “Level of verbosity”), etc are various forms of using @Parameter
 
-1298. QUESTION:
+1298. QUESTION: 
 a) 2 512 3
 b) 2 2 3
 c) 512 2 3
@@ -10683,7 +10683,7 @@ d) java.system
 Answer: a
 Explanation: None.
 
-1305. QUESTION:
+1305. QUESTION: 
 a) 0
 b) 1
 c) Compilation Error
@@ -10695,7 +10695,7 @@ $ javac Output.javac
 $ java Output
 Exception in thread "main" java.lang.StackOverflowError
 
-1306. QUESTION:
+1306. QUESTION: 
 a) 0
 b) 1
 c) 120
@@ -10707,7 +10707,7 @@ $ javac Output.javac
 $ java Output
 1
 
-1307. QUESTION:
+1307. QUESTION: 
 a) 24
 b) 30
 c) 120
@@ -10719,7 +10719,7 @@ $ javac Output.javac
 $ java Output
 120
 
-1308. QUESTION:
+1308. QUESTION: 
 a) 1
 b) 30
 c) 120
@@ -10731,7 +10731,7 @@ $ javac Output.javac
 $ java Output
 1
 
-1309. QUESTION:
+1309. QUESTION: 
 a) 1
 b) 30
 c) 120
@@ -10775,7 +10775,7 @@ d) super();
 Answer: d
 Explanation: None.
 
-1314. QUESTION:
+1314. QUESTION: 
 a) final, native, private
 b) final, static, protected
 c) final, private, abstract
@@ -10791,7 +10791,7 @@ d) None of the mentioned
 Answer: c
 Explanation: None.
 
-1316. QUESTION:
+1316. QUESTION: 
 a) 2
 b) 3
 c) 7
@@ -10799,7 +10799,7 @@ d) Compilation Error
 Answer: c
 Explanation: Both x,and y are pointing to the same array.
 
-1317. QUESTION:
+1317. QUESTION: 
 a) 2 2
 b) 3 3
 c) Runtime Error
@@ -10811,7 +10811,7 @@ $ javac inheritance.java
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	i cannot be resolved or is not a field
 
-1318. QUESTION:
+1318. QUESTION: 
 a) Compilation error
 b) An exception is thrown at run time
 c) The variable first is set to null
@@ -10819,7 +10819,7 @@ d) The variable first is set to elements[0].
 Answer: d
 Explanation: The value at the 0th position will be assigned to the variable first.
 
-1319. QUESTION:
+1319. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -10879,7 +10879,7 @@ d) None of the mentioned
 Answer: b
 Explanation: None.
 
-1326. QUESTION:
+1326. QUESTION: 
 a) 0
 b) 2
 c) Runtime Error
@@ -10891,7 +10891,7 @@ $ javac Abstract_demo.java
 $ java Abstract_demo 
 2
 
-1327. QUESTION:
+1327. QUESTION: 
 a) false
 b) true
 c) 1
@@ -10912,7 +10912,7 @@ $ javac Output.java
 $ java Output
 false
 
-1328. QUESTION:
+1328. QUESTION: 
 a) Object
 b) class Object
 c) class java.lang.Object
@@ -10924,7 +10924,7 @@ $ javac Output.java
 $ java Output
 class java.lang.Object
 
-1329. QUESTION:
+1329. QUESTION: 
 a) true
 b) false
 c) String associated with obj1
@@ -10976,7 +10976,7 @@ d) java.system
 Answer: a
 Explanation: None.
 
-1335. QUESTION:
+1335. QUESTION: 
 a) 2 2
 b) 3 3
 c) Runtime Error
@@ -10988,7 +10988,7 @@ $ javac inheritance.java
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	The field A.j is not visible
 
-1336. QUESTION:
+1336. QUESTION: 
 a) 1 2
 b) 2 1
 c) Runtime Error
@@ -11009,7 +11009,7 @@ $ javac super_use.java
 $ java super_use
 1 2
 
-1337. QUESTION:
+1337. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -11021,7 +11021,7 @@ $ javac method_overriding.java
 $ java method_overriding
 2
 
-1338. QUESTION:
+1338. QUESTION: 
 a) 1 2
 b) 2 1
 c) 1 3
@@ -11057,7 +11057,7 @@ d) class B extends class A {}
 Answer: c
 Explanation: None.
 
-1342. QUESTION:
+1342. QUESTION: 
 a) B,E
 b) A,C
 c) C,E
@@ -11065,7 +11065,7 @@ d) T,H
 Answer: a
 Explanation: If one is extending any class, then they should use extends keyword not implements.
 
-1343. QUESTION:
+1343. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -11077,7 +11077,7 @@ $ javac inheritance_demo.java
 $ java inheritance_demo 
 2
 
-1344. QUESTION:
+1344. QUESTION: 
 a) 2 2
 b) 3 3
 c) 2 3
@@ -11098,7 +11098,7 @@ $ javac inheritance.java
 $ java inheritance
 2 3
 
-1345. QUESTION:
+1345. QUESTION: 
 a) 1 2
 b) 2 1
 c) Runtime Error
@@ -11234,7 +11234,7 @@ d) None of the mentioned
 Answer: c
 Explanation: StringBuffer class is used to create strings that can be modified after they are created.
 
-1362. QUESTION:
+1362. QUESTION: 
 a) a
 b) b
 c) c
@@ -11246,7 +11246,7 @@ $ javac String_demo.java
 $ java String_demo 
 abc
 
-1363. QUESTION:
+1363. QUESTION: 
 a) ABC
 b) BCD
 c) CDA
@@ -11267,7 +11267,7 @@ $ javac String_demo.java
 $ java String_demo 
 BCD
 
-1364. QUESTION:
+1364. QUESTION: 
 a) 3 0
 b) 0 3
 c) 3 4
@@ -11295,7 +11295,7 @@ d) Give Bytes()
 Answer: a
 Explanation: getBytes() stores the character in an array of bytes. It uses default character to byte conversions provided by the platform.
 
-1367. QUESTION:
+1367. QUESTION: 
 a) any class
 b) only the Target class
 c) any class in the test package
@@ -11303,7 +11303,7 @@ d) any class that extends Target
 Answer: c
 Explanation: Any class in the test package can access and change name.
 
-1368. QUESTION:
+1368. QUESTION: 
 a) The value “4” is printed at the command line
 b) Compilation fails because of an error in line
 c) A NullPointerException occurs at runtime
@@ -11319,7 +11319,7 @@ d) all of the mentioned
 Answer: c
 Explanation: charAt() return one character only not array of character.
 
-1370. QUESTION:
+1370. QUESTION: 
 a) Hello, i love java
 b) i love ja
 c) lo i lo
@@ -11331,7 +11331,7 @@ $ javac output.java
 $ java output
 llo i l
 
-1371. QUESTION:
+1371. QUESTION: 
 a) 6 4 6 9
 b) 5 4 5 9
 c) 7 8 8 9
@@ -11353,7 +11353,7 @@ $ java output
 a is a lower case Letter
 A is an Upper Case Letter
 
-1373. QUESTION:
+1373. QUESTION: 
 a) h
 b) e
 c) l
@@ -11406,7 +11406,7 @@ d) all of the mentioned
 Answer: c
 Explanation: equals() method of string class returns boolean value true if both the string are equal and false if they are unequal.
 
-1379. QUESTION:
+1379. QUESTION: 
 a) true
 b) false
 c) 0
@@ -11418,7 +11418,7 @@ $ javac output.java
 $ java output
 false
 
-1380. QUESTION:
+1380. QUESTION: 
 a) true true
 b) false false
 c) true false
@@ -11439,7 +11439,7 @@ $ javac output.java
 $ java output
 false true
 
-1381. QUESTION:
+1381. QUESTION: 
 a) true true
 b) false false
 c) true false
@@ -11451,7 +11451,7 @@ $ javac output.java
 $ java output
 true false
 
-1382. QUESTION:
+1382. QUESTION: 
 a) sb1.append(“abc”); s1.append(“abc”);
 b) sb1.append(“abc”); s1.concat(“abc”);
 c) sb1.concat(“abc”); s1.append(“abc”);
@@ -11460,7 +11460,7 @@ Answer: d
 Explanation: append() is stringbuffer method and concat is String class method.
 append() is stringbuffer method and concat is String class method.
 
-1383. QUESTION:
+1383. QUESTION: 
 a) ab
 b) bc
 c) ca
@@ -11480,7 +11480,7 @@ d) None of the mentioned
 Answer: a
 Explanation: None.
 
-1385. QUESTION:
+1385. QUESTION: 
 a) one
 b) two
 c) onetwo
@@ -11513,7 +11513,7 @@ d) replace() replace() method replaces last occurrence of a character in invokin
 Answer: a
 Explanation: replace() method replaces all occurrences of one character in invoking string with another character.
 
-1389. QUESTION:
+1389. QUESTION: 
 a) “”Hello World””
 b) “”Hello World”
 c) “Hello World”
@@ -11525,7 +11525,7 @@ $ javac output.java
 $ java output
 "Hello World"
 
-1390. QUESTION:
+1390. QUESTION: 
 a) one
 b) two
 c) one two
@@ -11537,7 +11537,7 @@ $ javac output.java
 $ java output
 one two
 
-1391. QUESTION:
+1391. QUESTION: 
 a) hello
 b) helwo
 c) hewlo
@@ -11549,7 +11549,7 @@ $ javac output.java
 $ java output
 hewwo
 
-1392. QUESTION:
+1392. QUESTION: 
 a) Hell
 b) Hello
 c) Worl
@@ -11561,7 +11561,7 @@ $ javac output.java
 $ java output 
 Hell
 
-1393. QUESTION:
+1393. QUESTION: 
 a) 4 8
 b) 5 9
 c) 4 9
@@ -11597,7 +11597,7 @@ d) Capacity()
 Answer: a
 Explanation: None.
 
-1397. QUESTION:
+1397. QUESTION: 
 a) Hell
 b) ello
 c) Hel
@@ -11613,7 +11613,7 @@ d) replace() method replaces last occurrence of a character in invoking string w
 Answer: a
 Explanation: reverse() method reverses all characters. It returns the reversed object on which it was called.
 
-1399. QUESTION:
+1399. QUESTION: 
 a) 6 4 6 9
 b) 5 4 5 9
 c) 7 8 8 9
@@ -11635,7 +11635,7 @@ $ javac output.java
 $ java output
 1 14 8 15
 
-1400. QUESTION:
+1400. QUESTION: 
 a) He
 b) Hel
 c) lo
@@ -11647,7 +11647,7 @@ $ javac output.java
 $ java output
 llo
 
-1401. QUESTION:
+1401. QUESTION: 
 a) Hello
 b) World
 c) Helloworld
@@ -11668,7 +11668,7 @@ $ javac output.java
 $ java output
 Hello World
 
-1402. QUESTION:
+1402. QUESTION: 
 a) Hello
 b) olleH
 c) HelloolleH
@@ -11697,7 +11697,7 @@ d) None of the mentioned
 Answer: a
 Explanation: None.
 
-1405. QUESTION:
+1405. QUESTION: 
 a) one
 b) two
 c) onetwo
@@ -11729,7 +11729,7 @@ d) StringBuffer(int size , String str)
 Answer: d
 Explanation: None.
 
-1409. QUESTION:
+1409. QUESTION: 
 a) 4
 b) 5
 c) 6
@@ -11750,7 +11750,7 @@ $ javac output.java
 $ java output
 5
 
-1410. QUESTION:
+1410. QUESTION: 
 a) Hello java
 b) Hellojava
 c) HJavalo
@@ -11761,7 +11761,7 @@ $ javac output.java
 $ java output
 HJavalo
 
-1411. QUESTION:
+1411. QUESTION: 
 a) xello
 b) xxxxx
 c) Hxllo
@@ -11782,7 +11782,7 @@ $ javac output.java
 $ java output
 Hxllo
 
-1412. QUESTION:
+1412. QUESTION: 
 a) HelloGoodWorld
 b) HellGoodoWorld
 c) HellGood oWorld
@@ -11794,7 +11794,7 @@ $ javac output.java
 $ java output 
 Hello Good World
 
-1413. QUESTION:
+1413. QUESTION: 
 a) hello
 b) java
 c) Hello Java
@@ -11862,7 +11862,7 @@ d) java.packages
 Answer: a
 Explanation: None.
 
-1421. QUESTION:
+1421. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -11874,7 +11874,7 @@ $ javac isinfinite_output.java
 $ java isinfinite_output
 true
 
-1422. QUESTION:
+1422. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -11886,7 +11886,7 @@ $ javac isNaN_output.java
 $ java isNaN_output
 false
 
-1423. QUESTION:
+1423. QUESTION: 
 a) 1001
 b) 10011
 c) 11011
@@ -11946,7 +11946,7 @@ d) Long Longvalue()
 Answer: b
 Explanation: long longValue() is used to obtain value of invoking object as a long.
 
-1430. QUESTION:
+1430. QUESTION: 
 a) true false true
 b) false true true
 c) true true false
@@ -11958,7 +11958,7 @@ $ javac Output.java
 $ java Output
 false true true
 
-1431. QUESTION:
+1431. QUESTION: 
 a) 0
 b) 1
 c) 256
@@ -11979,7 +11979,7 @@ $ javac Output.java
 $ java Output
 1
 
-1432. QUESTION:
+1432. QUESTION: 
 a) 0
 b) 1
 c) 257
@@ -11991,7 +11991,7 @@ $ javac Output.java
 $ java Output
 257.0
 
-1433. QUESTION:
+1433. QUESTION: 
 a) 256
 b) 256.0
 c) 256.00
@@ -12051,7 +12051,7 @@ d) System
 Answer: d
 Explanation: System class holds a collection of static methods and variables. The standard input, output and error output of java runtime is stored in the in, out and err variables of System class.
 
-1440. QUESTION:
+1440. QUESTION: 
 a) 0
 b) 1
 c) 1000
@@ -12063,7 +12063,7 @@ $ javac Output.java
 $ java Output
 78
 
-1441. QUESTION:
+1441. QUESTION: 
 a) ABCDEF ABCDEF
 b) ABCDEF GHIJKL
 c) GHIJKL ABCDEF
@@ -12084,7 +12084,7 @@ $ javac Output.java
 $ java Output
 ABCDEF ABCDEF
 
-1442. QUESTION:
+1442. QUESTION: 
 a) ABCDEF GHIJKL
 b) ABCDEF GCDEFL
 c) GHIJKL ABCDEF
@@ -12096,7 +12096,7 @@ $ javac Output.java
 $ java Output
 ABCDEF GCDEFL
 
-1443. QUESTION:
+1443. QUESTION: 
 a) ABCDEF GHIJKL
 b) ABCDEF GCDEFL
 c) GHIJKL ABCDEF
@@ -12156,7 +12156,7 @@ d) System
 Answer: a
 Explanation: None.
 
-1450. QUESTION:
+1450. QUESTION: 
 a) 2
 b) 3
 c) 4
@@ -12164,7 +12164,7 @@ d) 2.5
 Answer: b
 Explanation: The Math.random() method returns a number greater than or equal to 0 and less than 1.  so 2.5 will be greater than or equal to 2.5 and less than 3.5, we can be sure that Math.round() will round that number to 3.
 
-1451. QUESTION:
+1451. QUESTION: 
 a) 0
 b) 3
 c) 3.0
@@ -12185,7 +12185,7 @@ $ javac Output.java
 $ java Output
 3
 
-1452. QUESTION:
+1452. QUESTION: 
 a) true
 b) flase
 c) 3.1
@@ -12197,7 +12197,7 @@ $ javac Output.java
 $ java Output
 4.5
 
-1453. QUESTION:
+1453. QUESTION: 
 a) 2.0
 b) 4.0
 c) 8.0
@@ -12249,7 +12249,7 @@ d) 3
 Answer: a
 Explanation: None.
 
-1459. QUESTION:
+1459. QUESTION: 
 a) 0
 b) 1
 c) 1000
@@ -12261,7 +12261,7 @@ $ javac Output.java
 $ java Output
 78
 
-1460. QUESTION:
+1460. QUESTION: 
 a) ABCDEF ABCDEF
 b) ABCDEF GHIJKL
 c) GHIJKL ABCDEF
@@ -12282,7 +12282,7 @@ $ javac Output.java
 $ java Output
 ABCDEF ABCDEF
 
-1461. QUESTION:
+1461. QUESTION: 
 a) ABCDEF ABCDEF
 b) ABCDEF GHIJKL
 c) ABCDEF GHIABC
@@ -12294,7 +12294,7 @@ $ javac Output.java
 $ java Output
 ABCDEF GHIABC
 
-1462. QUESTION:
+1462. QUESTION: 
 a) ABCDEF ABCDEF
 b) ABCDEF GHIJKL
 c) ABCDEF GHIABC
@@ -12306,7 +12306,7 @@ $ javac Output.java
 $ java Output
 ABCDEF GHICDL
 
-1463. QUESTION:
+1463. QUESTION: 
 a) 0
 b) 1
 c) 4
@@ -12354,7 +12354,7 @@ d) ClassCastException
 Answer: d
 Explanation: compareTo() methods compare the specified object to be double, if it is not then ClassCastException is thrown.
 
-1469. QUESTION:
+1469. QUESTION: 
 a) true
 b) false
 c) 0
@@ -12366,7 +12366,7 @@ $ javac Output.java
 $ java Output
 false
 
-1470. QUESTION:
+1470. QUESTION: 
 a) 0
 b) 1
 c) 256
@@ -12387,7 +12387,7 @@ $ javac Output.java
 $ java Output
 257
 
-1471. QUESTION:
+1471. QUESTION: 
 a) 0
 b) 257.0
 c) 257.57812
@@ -12399,7 +12399,7 @@ $ javac Output.java
 $ java Output
 257.57812
 
-1472. QUESTION:
+1472. QUESTION: 
 a) 0
 b) 1
 c) Exception
@@ -12459,7 +12459,7 @@ d) isfile()
 Answer: b
 Explanation: isFile() returns true if called on a file and returns false when called on a directory.
 
-1479. QUESTION:
+1479. QUESTION: 
 a) java
 b) system
 c) java/system
@@ -12577,7 +12577,7 @@ $ java filesinputoutput
 1422
 (Output will be different in your case)
 
-1490. QUESTION:
+1490. QUESTION: 
 a) abc
 b) ABC
 c) ab
@@ -12589,7 +12589,7 @@ $ javac filesinputoutput.java
 $ java filesinputoutput
 abc
 
-1491. QUESTION:
+1491. QUESTION: 
 a) abc
 b) ABC
 c) ab
@@ -12601,7 +12601,7 @@ $ javac filesinputoutput.java
 $ java filesinputoutput
 ABC
 
-1492. QUESTION:
+1492. QUESTION: 
 a) AaBaCa
 b) ABCaaa
 c) AaaBaaCaa
@@ -12653,7 +12653,7 @@ d) CharArrayReader
 Answer: c
 Explanation: PushbackReader  class allows one or more characters to be returned to the input stream. This allows looking ahead in input stream and performing action accordingly.
 
-1498. QUESTION:
+1498. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -12665,7 +12665,7 @@ $ javac Chararrayinput.java
 $ java Chararrayinput
 abcdef
 
-1499. QUESTION:
+1499. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -12686,7 +12686,7 @@ $ javac Chararrayinput.java
 $ java Chararrayinput
 abc
 
-1500. QUESTION:
+1500. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -12813,7 +12813,7 @@ d) System
 Answer: b
 Explanation: Exception class contains all the methods necessary for defining an exception. The class contains the Throwable class.
 
-1516. QUESTION:
+1516. QUESTION: 
 a) 12345
 b) 123450
 c) 1234500
@@ -12825,7 +12825,7 @@ $ javac exception_handling.java
 $ java exception_handling
 123450
 
-1517. QUESTION:
+1517. QUESTION: 
 a) 12345
 b) 12345A
 c) 12345B
@@ -12837,7 +12837,7 @@ $ javac exception_handling.java
 $ java exception_handling
 12345B
 
-1518. QUESTION:
+1518. QUESTION: 
 a) A
 b) 0
 c) 0A
@@ -12849,7 +12849,7 @@ $ javac exception_handling.java
 $ java exception_handling
 0A
 
-1519. QUESTION:
+1519. QUESTION: 
 a) A
 b) B
 c) AB
@@ -12905,7 +12905,7 @@ d) none of the mentioned
 Answer: a
 Explanation: abs() returns the absolute value of a variable.
 
-1525. QUESTION:
+1525. QUESTION: 
 a) 1 2 0 0
 b) 1 2 1 2
 c) 0 0 0 0
@@ -12926,7 +12926,7 @@ $ javac Output.java
 $ java Output
 1 2 1 2
 
-1526. QUESTION:
+1526. QUESTION: 
 a) 0
 b) 3
 c) 3.0
@@ -12938,7 +12938,7 @@ $ javac Output.java
 $ java Output
 3
 
-1527. QUESTION:
+1527. QUESTION: 
 a) 0
 b) 3
 c) 3.0
@@ -12950,7 +12950,7 @@ $ javac Output.java
 $ java Output
 4
 
-1528. QUESTION:
+1528. QUESTION: 
 a) 0
 b) 3
 c) 3.0
@@ -12994,7 +12994,7 @@ d) hashCode()
 Answer: b
 Explanation: isInfinite() methods is defined in Integer and Long Wrappers, returns true if specified value is an infinite value otherwise it returns false.
 
-1533. QUESTION:
+1533. QUESTION: 
 a) 0
 b) 1.7976931348623157E308
 c) 1.7976931348623157E30
@@ -13015,7 +13015,7 @@ $ javac Output.java
 $ java Output
 1.7976931348623157E308
 
-1534. QUESTION:
+1534. QUESTION: 
 a) 0
 b) 4.9E-324
 c) 1.7976931348623157E308
@@ -13027,7 +13027,7 @@ $ javac Output.java
 $ java Output
 4.9E-324
 
-1535. QUESTION:
+1535. QUESTION: 
 a) 0
 b) 257.0
 c) 257.57812
@@ -13079,7 +13079,7 @@ d) UNICODE
 Answer: d
 Explanation: isDefined() returns true if ch is defined by Unicode. Otherwise, it returns false.
 
-1541. QUESTION:
+1541. QUESTION: 
 a) <
 b) >
 c) ?
@@ -13091,7 +13091,7 @@ $ javac Output.java
 $ java Output
 ?
 
-1542. QUESTION:
+1542. QUESTION: 
 a) <
 b) !
 c) @
@@ -13102,7 +13102,7 @@ Output:
 $ javac Output.java
 $ java Output
 
-1543. QUESTION:
+1543. QUESTION: 
 a) true false true
 b) false true true
 c) true true false
@@ -13114,7 +13114,7 @@ $ javac Output.java
 $ java Output
 false true true
 
-1544. QUESTION:
+1544. QUESTION: 
 a) b
 b) c
 c) B
@@ -13126,7 +13126,7 @@ $ javac Output.java
 $ java Output
 B
 
-1545. QUESTION:
+1545. QUESTION: 
 a) true
 b) false
 c) @
@@ -13178,7 +13178,7 @@ d) void
 Answer: d
 Explanation: Void class has only one field – TYPE, which holds a reference to the Class object for type void. We do not create an instance of this class.
 
-1551. QUESTION:
+1551. QUESTION: 
 a) True
 b) False
 c) Compilation Error
@@ -13190,7 +13190,7 @@ $ javac Output.java
 $ java Output
 true
 
-1552. QUESTION:
+1552. QUESTION: 
 a) True
 b) False
 c) Compilation Error
@@ -13202,7 +13202,7 @@ $ javac Output.java
 $ java Output
 false
 
-1553. QUESTION:
+1553. QUESTION: 
 a) True
 b) False
 c) Compilation Error
@@ -13214,7 +13214,7 @@ $ javac Output.java
 $ java Output
 true
 
-1554. QUESTION:
+1554. QUESTION: 
 a) True
 b) False
 c) System Dependent
@@ -13228,7 +13228,7 @@ $ javac Output.java
 $ java Output
 false
 
-1555. QUESTION:
+1555. QUESTION: 
 a) True
 b) False
 c) System Dependent
@@ -13288,7 +13288,7 @@ d) double min(double X)
 Answer: a
 Explanation: ciel(double X) returns the smallest whole number greater than or equal to variable X.
 
-1562. QUESTION:
+1562. QUESTION: 
 a) 0
 b) 179
 c) 180
@@ -13300,7 +13300,7 @@ $ javac Output.java
 $ java Output
 179
 
-1563. QUESTION:
+1563. QUESTION: 
 a) 0
 b) 3
 c) 3.0
@@ -13321,7 +13321,7 @@ $ javac Output.java
 $ java Output
 0
 
-1564. QUESTION:
+1564. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -13333,7 +13333,7 @@ $ javac Output.java
 $ java Output
 2
 
-1565. QUESTION:
+1565. QUESTION: 
 a) Yes
 b) No
 c) Compiler Dependent
@@ -13373,7 +13373,7 @@ d) ClassNotFoundException
 Answer: d
 Explanation: None.
 
-1570. QUESTION:
+1570. QUESTION: 
 a) X
 b) Y
 c) class X
@@ -13394,7 +13394,7 @@ $ javac Output.java
 $ java Output
 class X
 
-1571. QUESTION:
+1571. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -13406,7 +13406,7 @@ $ javac Output.java
 $ java Output
 false
 
-1572. QUESTION:
+1572. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -13450,7 +13450,7 @@ d) ClassLoader
 Answer: d
 Explanation: None.
 
-1577. QUESTION:
+1577. QUESTION: 
 a) X
 b) Y
 c) a
@@ -13471,7 +13471,7 @@ $ javac Output.java
 $ java Output
 X
 
-1578. QUESTION:
+1578. QUESTION: 
 a) X
 b) Y
 c) class X
@@ -13483,7 +13483,7 @@ $ javac Output.java
 $ java Output
 class X
 
-1579. QUESTION:
+1579. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -13527,7 +13527,7 @@ d) stop()
 Answer: a
 Explanation: None.
 
-1584. QUESTION:
+1584. QUESTION: 
 a) true
 b) false
 c) truetrue
@@ -13539,7 +13539,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 falsefalse
 
-1585. QUESTION:
+1585. QUESTION: 
 a) Thread[New Thread,0,main].
 b) Thread[New Thread,1,main].
 c) Thread[New Thread,5,main].
@@ -13551,7 +13551,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[New Thread,10,main]
 
-1586. QUESTION:
+1586. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -13562,7 +13562,7 @@ Output:
 $ javac multithreaded_programing.java
 The type newthread must implement the inherited abstract method Runnable.run()
 
-1587. QUESTION:
+1587. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -13574,7 +13574,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 My Thread
 
-1588. QUESTION:
+1588. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -13713,7 +13713,7 @@ d) writeObject()
 Answer: d
 Explanation: writeObject() is used to write an object into invoking stream, it can be input stream or output stream.
 
-1605. QUESTION:
+1605. QUESTION: 
 a) s=Hello; i=-7; d=2.1E10
 b) Hello; -7; 2.1E10
 c) s; i; 2.1E10
@@ -13725,7 +13725,7 @@ $ javac serialization.java
 $ java serialization
 s=Hello; i=-7; d=2.1E10
 
-1606. QUESTION:
+1606. QUESTION: 
 a) -7
 b) Hello
 c) 2.1E10
@@ -13746,7 +13746,7 @@ $ javac serialization.java
 $ java serialization
 deserialization
 
-1607. QUESTION:
+1607. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -13757,7 +13757,7 @@ Output:
 $ javac Chararrayinput.java
 $ java Chararrayinput
 
-1608. QUESTION:
+1608. QUESTION: 
 a) 3
 b) 3.5
 c) serialization
@@ -13885,7 +13885,7 @@ d) ObjectInput
 Answer: b
 Explanation: ObjectInputStream class extends the InputStream class and implements the ObjectInput interface.
 
-1624. QUESTION:
+1624. QUESTION: 
 a) 5
 b) void
 c) serialization
@@ -13897,7 +13897,7 @@ $ javac streams.java
 $ java streams
 5
 
-1625. QUESTION:
+1625. QUESTION: 
 a) -7
 b) Hello
 c) 2.1E10
@@ -13918,7 +13918,7 @@ $ javac serialization.java
 $ java serialization
 deserialization
 
-1626. QUESTION:
+1626. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -13930,7 +13930,7 @@ $ javac streams.java
 $ java streams
 0
 
-1627. QUESTION:
+1627. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -13942,7 +13942,7 @@ $ javac streams.java
 $ java streams
 4
 
-1628. QUESTION:
+1628. QUESTION: 
 a) “Success” to the output and “Welcome to Sanfoundry” to the file
 b) only “Welcome to Sanfoundry” to the file
 c) compile time error
@@ -13998,7 +13998,7 @@ d) ContentHandler
 Answer: c
 Explanation: InetAddress  class encapsulate both IP address and DNS, we can interact with this class by using name of an IP host.
 
-1635. QUESTION:
+1635. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -14010,7 +14010,7 @@ $ javac networking.java
 $ java networking 
 true
 
-1636. QUESTION:
+1636. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -14031,7 +14031,7 @@ $ javac networking.java
 $ java networking 
 false
 
-1637. QUESTION:
+1637. QUESTION: 
 a) Protocol: http
 b) Host Name: www.sanfoundry.com
 c) Port Number: -1
@@ -14041,7 +14041,7 @@ Explanation: getProtocol() give protocol which is http
 getUrl() give name domain name
 getPort() Since we have not explicitly set the port, default value that is -1 is printed.
 
-1638. QUESTION:
+1638. QUESTION: 
 a) cisco
 b) cisco.com
 c) www.cisco.com
@@ -14121,7 +14121,7 @@ d) All of the mentioned
 Answer: d
 Explanation: There are 5 instance variables: port, docRoot, log, cache and stopFlag. All of them are private.
 
-1647. QUESTION:
+1647. QUESTION: 
 a) sanfoundry
 b) sanfoundry.com
 c) www.sanfoundry.com
@@ -14241,7 +14241,7 @@ d) All of the mentioned
 Answer: d
 Explanation: URL, URLDecoder and URLConnection all there are used to access information stored in a URL.
 
-1661. QUESTION:
+1661. QUESTION: 
 a) http
 b) https
 c) www
@@ -14253,7 +14253,7 @@ $ javac networking.java
 $ java networking 
 http
 
-1662. QUESTION:
+1662. QUESTION: 
 a) 1
 b) 0
 c) -1
@@ -14274,7 +14274,7 @@ $ javac networking.java
 $ java networking 
 -1
 
-1663. QUESTION:
+1663. QUESTION: 
 a) sanfoundry
 b) sanfoundry.com
 c) www.sanfoundry.com
@@ -14286,7 +14286,7 @@ $ javac networking.java
 $ java networking 
 www.sanfoundry.com
 
-1664. QUESTION:
+1664. QUESTION: 
 a) sanfoundry
 b) sanfoundry.com
 c) www.sanfoundry.com
@@ -14503,7 +14503,7 @@ d) trimToSize()
 Answer: d
 Explanation: trimTosize() is used to reduce the size of the array that underlines an ArrayList object.
 
-1688. QUESTION:
+1688. QUESTION: 
 a) [A, B, C, D].
 b) [A, D, B, C].
 c) [A, D, C].
@@ -14515,7 +14515,7 @@ $ javac Arraylist.java
 $ java Arraylist
 [A, D, B, C].
 
-1689. QUESTION:
+1689. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -14536,7 +14536,7 @@ $ javac Output.java
 $ java Output
 2
 
-1690. QUESTION:
+1690. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -14548,7 +14548,7 @@ $ javac Output.java
 $ java Output
 1
 
-1691. QUESTION:
+1691. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -14617,7 +14617,7 @@ d) Collections.synchronize(new HashMap<String, String>());
 Answer: c
 Explanation: Collections.synchronizedMap() synchronizes entire map. ConcurrentHashMap provides thread safety without synchronizing entire map.
 
-1700. QUESTION:
+1700. QUESTION: 
 a) {1=null, 2=null, 3=null, 4=null, 5=null}
 b) {5=null}
 c) Exception is thrown
@@ -14843,7 +14843,7 @@ d) add()
 Answer: b
 Explanation: An element in a LinkedList object can be changed by first using get() to obtain the index or location of that object and the passing that location to method set() along with its new value.
 
-1728. QUESTION:
+1728. QUESTION: 
 a) [A, B, C].
 b) [D, B, C].
 c) [A, B, C, D].
@@ -14855,7 +14855,7 @@ $ javac Linkedlist.java
 $ java Linkedlist
 [D, A, B, C].
 
-1729. QUESTION:
+1729. QUESTION: 
 a) [A, B].
 b) [B, C].
 c) [A, B, C, D].
@@ -14876,7 +14876,7 @@ $ javac Linkedlist.java
 $ java Linkedlist
 [B, C]
 
-1730. QUESTION:
+1730. QUESTION: 
 a) ABC 3
 b) [A, B, C] 3
 c) ABC 2
@@ -14888,7 +14888,7 @@ $ javac Output.java
 $ java Output
 [A, B, C] 3
 
-1731. QUESTION:
+1731. QUESTION: 
 a) [1, 3, 5, 8, 9].
 b) [3, 4, 1, 8, 9].
 c) [9, 8, 4, 3, 1].
@@ -14948,7 +14948,7 @@ d) add()
 Answer: a
 Explanation: Maps revolve around two basic operations – get() and put(). to put a value into a map, use put(), specifying the key and the value. To obtain a value, call get() , passing the key as an argument. The value is returned.
 
-1738. QUESTION:
+1738. QUESTION: 
 a) {A 1, B 1, C 1}
 b) {A, B, C}
 c) {A-1, B-1, C-1}
@@ -14960,7 +14960,7 @@ $ javac Maps.java
 $ java Maps 
 {A=1, B=2, C=3}
 
-1739. QUESTION:
+1739. QUESTION: 
 a) [A, B, C].
 b) {A, B, C}
 c) {1, 2, 3}
@@ -14981,7 +14981,7 @@ $ javac Maps.java
 $ java Maps 
 [A, B, C].
 
-1740. QUESTION:
+1740. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -14993,7 +14993,7 @@ $ javac Maps.java
 $ java Maps 
 2
 
-1741. QUESTION:
+1741. QUESTION: 
 a) [A, B, C].
 b) [1, 2, 3].
 c) {A=1, B=2, C=3}
@@ -15045,7 +15045,7 @@ d) addElement()
 Answer: d
 Explanation: addElement() is used to add data in the vector, to obtain the data we use elementAt() and to first and last element we use firstElement() and lastElement() respectively.
 
-1747. QUESTION:
+1747. QUESTION: 
 a) 0
 b) 3
 c) 2
@@ -15057,7 +15057,7 @@ $ javac vector.java
 $ java vector
 2
 
-1748. QUESTION:
+1748. QUESTION: 
 a) 2
 b) 3
 c) 4
@@ -15069,7 +15069,7 @@ $ javac vector.java
 $ java vector
 4
 
-1749. QUESTION:
+1749. QUESTION: 
 a) [3, 2, 6].
 b) [3, 2, 8].
 c) [3, 2, 6, 8].
@@ -15081,7 +15081,7 @@ $ javac vector.java
 $ java vector
 [3, 2, 8, 6].
 
-1750. QUESTION:
+1750. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -15093,7 +15093,7 @@ $ javac vector.java
 $ java vector
 true
 
-1751. QUESTION:
+1751. QUESTION: 
 a) [3, 5].
 b) [3, 2].
 c) [3, 2, 5].
@@ -15145,7 +15145,7 @@ d) getProperty()
 Answer: d
 Explanation: None.
 
-1757. QUESTION:
+1757. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -15157,7 +15157,7 @@ $ javac hashtable.java
 $ java hashtable
 false
 
-1758. QUESTION:
+1758. QUESTION: 
 a) 0
 b) 1
 c) 2
@@ -15169,7 +15169,7 @@ $ javac hashtable.java
 $ java hashtable
 0
 
-1759. QUESTION:
+1759. QUESTION: 
 a) {C=8, B=2}
 b) [C=8, B=2].
 c) {A=3, C=8, B=2}
@@ -15181,7 +15181,7 @@ $ javac hashtable.java
 $ java hashtable
 {C=8, B=2}
 
-1760. QUESTION:
+1760. QUESTION: 
 a) {C=8, B=2}
 b) [C=8, B=2].
 c) {A=3, C=8, B=2}
@@ -15193,7 +15193,7 @@ $ javac hashtable.java
 $ java hashtable
 {A=3, C=8, B=2}
 
-1761. QUESTION:
+1761. QUESTION: 
 a) {AB, BC, CD}
 b) [AB, BC, CD].
 c) [3, 2, 8].
@@ -15245,7 +15245,7 @@ d) getProperty()
 Answer: a
 Explanation: None.
 
-1767. QUESTION:
+1767. QUESTION: 
 a) {0, 1, 3, 4}
 b) {0, 1, 2, 4}
 c) {0, 1, 2, 3, 4}
@@ -15257,7 +15257,7 @@ $ javac Bitset.java
 $ java Bitset
 {0, 1, 3, 4}
 
-1768. QUESTION:
+1768. QUESTION: 
 a) 4 64
 b) 5 64
 c) 5 128
@@ -15269,7 +15269,7 @@ $ javac Bitset.java
 $ java Bitset
 5 64
 
-1769. QUESTION:
+1769. QUESTION: 
 a) 2
 b) 3
 c) 4
@@ -15281,7 +15281,7 @@ $ javac Bitset.java
 $ java Bitset
 2
 
-1770. QUESTION:
+1770. QUESTION: 
 a) Prints Present Date
 b) Runtime Error
 c) Any Garbage Value
@@ -15293,7 +15293,7 @@ $ javac date.java
 $ java date
 Tue Jun 11 11:29:57 PDT 2013
 
-1771. QUESTION:
+1771. QUESTION: 
 a) {0, 1}
 b) {2, 4}
 c) {3, 4}
@@ -15353,7 +15353,7 @@ d) java.text.modify
 Answer: a
 Explanation: java.text provides capabilities for formatting, searching and manipulating text.
 
-1778. QUESTION:
+1778. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the possible constructors of class ‘Class’
 c) Program prints “Exception”
@@ -15367,7 +15367,7 @@ public java.awt.Dimension(java.awt.Dimension)
 public java.awt.Dimension()
 public java.awt.Dimension(int,int)
 
-1779. QUESTION:
+1779. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the methods of ‘java.awt.Dimension’ package
 c) Program prints all the data members of ‘java.awt.Dimension’ package
@@ -15389,7 +15389,7 @@ $ java Additional_packages
 public int java.awt.Dimension.width
 public int java.awt.Dimension.height
 
-1780. QUESTION:
+1780. QUESTION: 
 a) 20
 b) Default value
 c) Compilation Error
@@ -15397,7 +15397,7 @@ d) Runtime Error
 Answer: c
 Explanation: To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we cannot define and use drawString or any Graphic class methods.
 
-1781. QUESTION:
+1781. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the methods of ‘java.awt.Dimension’ package
 c) Program prints all the data members of ‘java.awt.Dimension’ package
@@ -15465,7 +15465,7 @@ d) None of the mentioned
 Answer: a
 Explanation: A collection is a group of objects, it is similar to String Template Library (STL) of C++ programming language.
 
-1787. QUESTION:
+1787. QUESTION: 
 a) 12885
 b) 12845
 c) 58881
@@ -15477,7 +15477,7 @@ $ javac Array.java
 $ java Array
 58881
 
-1788. QUESTION:
+1788. QUESTION: 
 a) {0, 1, 3, 4}
 b) {0, 1, 2, 4}
 c) {0, 1, 2, 3, 4}
@@ -15537,7 +15537,7 @@ d) IllegalStateException
 Answer: d
 Explanation: None.
 
-1795. QUESTION:
+1795. QUESTION: 
 a) 0
 b) 1
 c) -1
@@ -15549,7 +15549,7 @@ $ javac Collection_iterators.java
 $ java Collection_iterators
 EMPTY
 
-1796. QUESTION:
+1796. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 2
@@ -15570,7 +15570,7 @@ $ javac Collection_iterators.java
 $ java Collection_iterators
 1 5 8 2
 
-1797. QUESTION:
+1797. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 1 2 5 8
@@ -15582,7 +15582,7 @@ $ javac Collection_iterators.java
 $ java Collection_iterators
 1 2 5 8
 
-1798. QUESTION:
+1798. QUESTION: 
 a) 2 8 5
 b) 2 1 8
 c) 2 5 8
@@ -15706,7 +15706,7 @@ d) binaryserach()
 Answer: d
 Explanation: binaryserach() method uses binary search to find a specified value. This method must be applied to sorted arrays.
 
-1813. QUESTION:
+1813. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -15727,7 +15727,7 @@ $ javac Arraylist.java
 $ java Arraylist
 true
 
-1814. QUESTION:
+1814. QUESTION: 
 a) 12345
 b) 54321
 c) 1234
@@ -15739,7 +15739,7 @@ $ javac Array.java
 $ java Array
 12345
 
-1815. QUESTION:
+1815. QUESTION: 
 a) 2
 b) 3
 c) 4
@@ -15791,7 +15791,7 @@ d) All of the mentioned
 Answer: d
 Explanation: None.
 
-1821. QUESTION:
+1821. QUESTION: 
 a) 12345
 b) 54321
 c) 1234
@@ -15803,7 +15803,7 @@ $ javac Array.java
 $ java Array
 12345
 
-1822. QUESTION:
+1822. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 1 2 5 8
@@ -15824,7 +15824,7 @@ $ javac Collection_Algos.java
 $ java Collection_Algos
 1 2 5 8
 
-1823. QUESTION:
+1823. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 1 2 5 8
@@ -15877,7 +15877,7 @@ d) none of the mentioned
 Answer: b
 Explanation: unmodifiableCollection() is available for al collections, Set, Map, List etc.
 
-1829. QUESTION:
+1829. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 2
@@ -15889,7 +15889,7 @@ $ javac Collection_Algos.java
 $ java Collection_Algos
 2 8 5 1
 
-1830. QUESTION:
+1830. QUESTION: 
 a) 2 8 5 1
 b) 1 5 8 2
 c) 2
@@ -15941,7 +15941,7 @@ d) catch
 Answer: c
 Explanation: None.
 
-1836. QUESTION:
+1836. QUESTION: 
 a) Hello
 b) World
 c) HelloWorld
@@ -15953,7 +15953,7 @@ $ javac exception_handling.java
 $ java exception_handling
 World
 
-1837. QUESTION:
+1837. QUESTION: 
 a) A
 b) B
 c) Compilation Error
@@ -15974,7 +15974,7 @@ $ javac exception_handling.java
 $ java exception_handling
 B
 
-1838. QUESTION:
+1838. QUESTION: 
 a) A
 b) B
 c) AC
@@ -15986,7 +15986,7 @@ $ javac exception_handling.java
 $ java exception_handling
 BC
 
-1839. QUESTION:
+1839. QUESTION: 
 a) 0
 b) 05
 c) Compilation Error
@@ -16108,7 +16108,7 @@ d) NumberFormatException
 Answer: d
 Explanation: parseInt() method parses input into integer. The exception thrown by this method is NumberFormatException.
 
-1854. QUESTION:
+1854. QUESTION: 
 a) Hello
 b) World
 c) Compilation Error
@@ -16121,7 +16121,7 @@ $ java exception_handling
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 World
 
-1855. QUESTION:
+1855. QUESTION: 
 a) -1
 b) 0
 c) -10
@@ -16165,7 +16165,7 @@ d) catch
 Answer: c
 Explanation: If a method is capable of causing an exception that it does not handle. It must specify this behaviour the behaviour so that callers of the method can guard themselves against that exception. This is done by using throws clause in methods declaration.
 
-1860. QUESTION:
+1860. QUESTION: 
 a) TypeA
 b) TypeB
 c) Compile Time Error
@@ -16173,7 +16173,7 @@ d) 0TypeB
 Answer: c
 Explanation: Because we can’t go beyond array limit
 
-1861. QUESTION:
+1861. QUESTION: 
 a) A
 b) B
 c) Hello
@@ -16186,7 +16186,7 @@ $ java exception_handling
 Exception in thread "main" java.lang.NullPointerException: Hello
 	at exception_handling.main
 
-1862. QUESTION:
+1862. QUESTION: 
 a) Finally
 b) Compilation fails
 c) The code runs with no output
@@ -16194,7 +16194,7 @@ d) An exception is thrown at runtime
 Answer: a
 Explanation: Because finally will execute always.
 
-1863. QUESTION:
+1863. QUESTION: 
 a) The program will not compile because no exceptions are specified
 b) The program will not compile because no catch clauses are specified
 c) Hello world
@@ -16255,7 +16255,7 @@ $ javac exception_handling.java
 $ java exception_handling
 1
 
-1869. QUESTION:
+1869. QUESTION: 
 a) A
 b) B
 c) Compilation Error
@@ -16267,7 +16267,7 @@ $ javac exception_handling.java
 $ java exception_handling
 Exception in thread "main" java.lang.NullPointerException: Hello
 
-1870. QUESTION:
+1870. QUESTION: 
 a) A
 b) B
 c) AB
@@ -16331,7 +16331,7 @@ d) try need not to be followed by anything
 Answer: d
 Explanation: try must be followed by either catch or finally block.
 
-1877. QUESTION:
+1877. QUESTION: 
 a) Hello
 b) World
 c) HelloWOrld
@@ -16343,7 +16343,7 @@ $ javac Output.javac
 java Output
 World
 
-1878. QUESTION:
+1878. QUESTION: 
 a) Hello
 b) World
 c) HelloWOrld
@@ -16355,7 +16355,7 @@ $ javac Output.javac
 java Output
 Hello
 
-1879. QUESTION:
+1879. QUESTION: 
 a) Hello
 b) World
 c) HelloWOrld
@@ -16367,7 +16367,7 @@ $ javac Output.javac
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	Syntax error, insert "Finally" to complete BlockStatements
 
-1880. QUESTION:
+1880. QUESTION: 
 a) Hello
 b) World
 c) HelloWOrld
@@ -16379,7 +16379,7 @@ $ javac Output.javac
 java Output
 HelloWorld
 
-1881. QUESTION:
+1881. QUESTION: 
 a) Hello
 b) World
 c) HelloWOrld
@@ -16431,7 +16431,7 @@ d) Class
 Answer: a
 Explanation: None.
 
-1887. QUESTION:
+1887. QUESTION: 
 a) 3
 b) Exception
 c) Runtime Error
@@ -16443,7 +16443,7 @@ $ javac Output.java
 java Output
 Exception
 
-1888. QUESTION:
+1888. QUESTION: 
 a) 3
 b) Exception
 c) Runtime Error
@@ -16453,7 +16453,7 @@ Explanation: Mexception is self defined exception, we are generating Myexception
 Output:
 $ javac Output.javac
 
-1889. QUESTION:
+1889. QUESTION: 
 a) A
 b) B
 c) Compilation Error
@@ -16465,7 +16465,7 @@ $ javac exception_handling.java
 $ java exception_handling
 Exception in thread "main" java.lang.NullPointerException: Hello
 
-1890. QUESTION:
+1890. QUESTION: 
 a) 3
 b) Exception
 c) Runtime Error
@@ -16537,7 +16537,7 @@ d) It’s a method that allow too many threads to access any information require
 Answer: a
 Explanation: When two or more threads need to access the same shared resource, they need some way to ensure that the resource will be used by only one thread at a time, the process by which this is achieved is called synchronization
 
-1898. QUESTION:
+1898. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -16549,7 +16549,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[My Thread,5,main].
 
-1899. QUESTION:
+1899. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Exception
@@ -16569,7 +16569,7 @@ advertisement
 $ javac multithreaded_programing.java
 $ java multithreaded_programing
 
-1900. QUESTION:
+1900. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -16581,7 +16581,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 true
 
-1901. QUESTION:
+1901. QUESTION: 
 a) true
 b) false
 c) truetrue
@@ -16617,7 +16617,7 @@ d) run() method is used to begin execution of a thread before start() method in 
 Answer: d
 Explanation: run() method is used to define the code that constitutes the new thread, it contains the code to be executed. start() method is used to begin execution of the thread that is execution of run(). run() itself is never used for starting execution of the thread.
 
-1905. QUESTION:
+1905. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -16638,7 +16638,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 My Thread
 
-1906. QUESTION:
+1906. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -16650,7 +16650,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[My Thread,5,main]
 
-1907. QUESTION:
+1907. QUESTION: 
 a) My Thread
 b) Thread[My Thread,5,main].
 c) Compilation Error
@@ -16661,7 +16661,7 @@ Output:
 $ javac multithreaded_programing.java
 The type newthread must implement the inherited abstract method Runnable.run()
 
-1908. QUESTION:
+1908. QUESTION: 
 a) Thread[New Thread,0,main].
 b) Thread[New Thread,1,main].
 c) Thread[New Thread,5,main].
@@ -16673,7 +16673,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[New Thread,10,main]
 
-1909. QUESTION:
+1909. QUESTION: 
 a) true
 b) false
 c) truetrue
@@ -16709,7 +16709,7 @@ d) Alive()
 Answer: a
 Explanation:isAlive() function is defined in class Thread, it is used for implementing multithreading and to check whether the thread called upon is still running or not.
 
-1913. QUESTION:
+1913. QUESTION: 
 a) Thread[5,main].
 b) Thread[New Thread,5].
 c) Thread[main,5,main].
@@ -16730,7 +16730,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[New Thread,5,main]
 
-1914. QUESTION:
+1914. QUESTION: 
 a) main
 b) Thread
 c) New Thread
@@ -16742,7 +16742,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 New Thread
 
-1915. QUESTION:
+1915. QUESTION: 
 a) 0
 b) 1
 c) 4
@@ -16754,7 +16754,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 5
 
-1916. QUESTION:
+1916. QUESTION: 
 a) 0
 b) 1
 c) true
@@ -16806,7 +16806,7 @@ d) A thread can exist only in two states, running and blocked
 Answer: d
 Explanation: Thread exist in several states, a thread can be running, suspended, blocked, terminated & ready to run.
 
-1922. QUESTION:
+1922. QUESTION: 
 a) Thread[5,main].
 b) Thread[main,5].
 c) Thread[main,0].
@@ -16818,7 +16818,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[main,5,main]
 
-1923. QUESTION:
+1923. QUESTION: 
 a) 4
 b) 5
 c) 0
@@ -16839,7 +16839,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[main,5,main]
 
-1924. QUESTION:
+1924. QUESTION: 
 a) main
 b) Thread
 c) System
@@ -16977,7 +16977,7 @@ d) It’s a method that allow too many threads to access any information the req
 Answer: a
 Explanation: When two or more threads need to access the same shared resource, they need some way to ensure that the resource will be used by only one thread at a time, the process by which this is achieved is called synchronization
 
-1941. QUESTION:
+1941. QUESTION: 
 a) true
 b) false
 c) Main thread interrupted
@@ -16989,7 +16989,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 Main thread interrupted
 
-1942. QUESTION:
+1942. QUESTION: 
 a) true
 b) false
 c) Main thread interrupted
@@ -17010,7 +17010,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 false
 
-1943. QUESTION:
+1943. QUESTION: 
 a) true
 b) false
 c) Main thread interrupted
@@ -17022,7 +17022,7 @@ $ javac multithreaded_programing.java
 $ java multithreaded_programing
 false
 
-1944. QUESTION:
+1944. QUESTION: 
 a) true
 b) false
 c) truetrue
@@ -17082,7 +17082,7 @@ d) ByteArrayInputStream
 Answer: d
 Explanation: None.
 
-1951. QUESTION:
+1951. QUESTION: 
 a) abcqfgh
 b) abc
 c) abcq
@@ -17094,7 +17094,7 @@ $ javac Input_Output.java
 $ java Input_Output
 abcq
 
-1952. QUESTION:
+1952. QUESTION: 
 a) abc’
 b) abcdef/’
 c) abc’def/’egh
@@ -17115,7 +17115,7 @@ $ javac Input_Output.java
 $ java Input_Output
 abc'
 
-1953. QUESTION:
+1953. QUESTION: 
 a) 4
 b) 5
 c) 6
@@ -17159,7 +17159,7 @@ d) SequenceInputStream
 Answer: a
 Explanation: FileInputStream implements InputStream.
 
-1958. QUESTION:
+1958. QUESTION: 
 a) Hello
 b) Hello stop
 c) World
@@ -17180,7 +17180,7 @@ $ javac Input_Output.java
 $ java Input_Output
 Hello stop World
 
-1959. QUESTION:
+1959. QUESTION: 
 a) Hello
 b) World
 c) Helloworld
@@ -17192,7 +17192,7 @@ $ javac output.java
 $ java output
 Hello World
 
-1960. QUESTION:
+1960. QUESTION: 
 a) xello
 b) xxxxx
 c) Hxllo
@@ -17204,7 +17204,7 @@ $ javac output.java
 $ java output
 Hxllo
 
-1961. QUESTION:
+1961. QUESTION: 
 a) abc’
 b) abcdef/’
 c) abc’def/’egh
@@ -17248,7 +17248,7 @@ d) BufferedFileInputStream
 Answer: c
 Explanation: None.
 
-1966. QUESTION:
+1966. QUESTION: 
 a) 6 4 6 9
 b) 5 4 5 9
 c) 7 8 8 9
@@ -17280,7 +17280,7 @@ $ java output
 a is a lower case Letter
   is White space character
 
-1968. QUESTION:
+1968. QUESTION: 
 a) Hello
 b) olleH
 c) HelloolleH
@@ -17354,7 +17354,7 @@ $ java filesinputoutput
 1422
 (Output will be different in your case)
 
-1976. QUESTION:
+1976. QUESTION: 
 a) AaBaCa
 b) ABCaaa
 c) AaaBaaCaa
@@ -17366,7 +17366,7 @@ $ javac filesinputoutput.java
 $ java filesinputoutput
 AaBaaCaaa
 
-1977. QUESTION:
+1977. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -17378,7 +17378,7 @@ $ javac Chararrayinput.java
 $ java Chararrayinput
 abc
 
-1978. QUESTION:
+1978. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -17429,7 +17429,7 @@ d) getinfoof
 Answer: c
 Explanation: None.
 
-1984. QUESTION:
+1984. QUESTION: 
 a) A Simple Applet
 b) A Simple Applet 20 20
 c) Compilation Error
@@ -17440,7 +17440,7 @@ Output:
 A Simple Applet
 (Output comes in a new java application)
 
-1985. QUESTION:
+1985. QUESTION: 
 a) 20
 b) 50
 c) 100
@@ -17448,7 +17448,7 @@ d) System dependent
 Answer: a
 Explanation: the code in pain() method – g.drawString(“A Simple Applet”,20,20); draws a applet box of length 20 and width 20.
 
-1986. QUESTION:
+1986. QUESTION: 
 a) 20
 b) Default value
 c) Compilation Error
@@ -17456,7 +17456,7 @@ d) Runtime Error
 Answer: c
 Explanation: To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we can not define and use drawString or any Graphic class methods.
 
-1987. QUESTION:
+1987. QUESTION: 
 a) abc
 b) abcd
 c) abcde
@@ -18056,7 +18056,7 @@ d) 8
 Answer: c
 Explanation: Random number can accept 64 bits but it only uses 48 bits for generating random numbers.
 
-2059. QUESTION:
+2059. QUESTION: 
 a) Random number between 1 to 15, including 1 and 15
 b) Random number between 1 to 15, excluding 15
 c) Random number between 1 to 15, excluding 1
@@ -18064,7 +18064,7 @@ d) Random number between 1 to 15, excluding 1 and 15
 Answer: a
 Explanation: random.nextInt(15) + 1; returns random numbers between 1 to 15 including 1 and 15.
 
-2060. QUESTION:
+2060. QUESTION: 
 a) Random number between 4 to 7, including 4 and 7
 b) Random number between 4 to 7, excluding 4 and 7
 c) Random number between 4 to 10, excluding 4 and 10
@@ -18126,7 +18126,7 @@ d) nextBoolean()
 Answer: d
 Explanation: None.
 
-2068. QUESTION:
+2068. QUESTION: 
 a) India
 b) INDIA
 c) Compilation Error
@@ -18137,7 +18137,7 @@ Output:
 $ javac LOCALE_CLASS.java
 $ java LOCALE_CLASS
 
-2069. QUESTION:
+2069. QUESTION: 
 a) India
 b) INDIA
 c) Compilation Error
@@ -18158,7 +18158,7 @@ $ javac LOCALE_CLASS.java
 $ java LOCALE_CLASS
 INDIA
 
-2070. QUESTION:
+2070. QUESTION: 
 a) India
 b) INDIA
 c) HINDI
@@ -18170,7 +18170,7 @@ $ javac LOCALE_CLASS.java
 $ java LOCALE_CLASS
 HINDI
 
-2071. QUESTION:
+2071. QUESTION: 
 a) India
 b) INDIA
 c) HINDI
@@ -18306,7 +18306,7 @@ $ javac packages.java
 $ java packages
 2
 
-2087. QUESTION:
+2087. QUESTION: 
 a) xello
 b) xxxxx
 c) Hxllo
@@ -18378,7 +18378,7 @@ d) All variables are static and methods are public if interface is defined pubic
 Answer: d
 Explanation: All methods and variables are implicitly public if interface is declared public.
 
-2095. QUESTION:
+2095. QUESTION: 
 a) 0
 b) 2
 c) 4
@@ -18390,7 +18390,7 @@ $ javac interfaces.java
 $ java interfaces
 4
 
-2096. QUESTION:
+2096. QUESTION: 
 a) 0 0
 b) 2 2
 c) 4 1
@@ -18411,7 +18411,7 @@ $ javac interfaces.java
 $ java interfaces
 4 1
 
-2097. QUESTION:
+2097. QUESTION: 
 a) 0 1 2
 b) 0 2 4
 c) 0 0 4
@@ -18539,7 +18539,7 @@ d) java.applet
 Answer: a
 Explanation: java.rmi provides capabilities for remote method invocation.
 
-2113. QUESTION:
+2113. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the possible constructors of class ‘Class’
 c) Program prints “Exception”
@@ -18553,7 +18553,7 @@ public java.awt.Dimension(java.awt.Dimension)
 public java.awt.Dimension()
 public java.awt.Dimension(int,int)
 
-2114. QUESTION:
+2114. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the methods of ‘java.awt.Dimension’ package
 c) Program prints all the data members of ‘java.awt.Dimension’ package
@@ -18575,7 +18575,7 @@ $ java Additional_packages
 public int java.awt.Dimension.width
 public int java.awt.Dimension.height
 
-2115. QUESTION:
+2115. QUESTION: 
 a) 20
 b) Default value
 c) Compilation Error
@@ -18583,7 +18583,7 @@ d) Runtime Error
 Answer: c
 Explanation: To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we cannot define and use drawString or any Graphic class methods.
 
-2116. QUESTION:
+2116. QUESTION: 
 a) Program prints all the constructors of ‘java.awt.Dimension’ package
 b) Program prints all the methods of ‘java.awt.Dimension’ package
 c) Program prints all the data members of ‘java.awt.Dimension’ package
@@ -18659,7 +18659,7 @@ d) All of the mentioned
 Answer: a
 Explanation: None.
 
-2123. QUESTION:
+2123. QUESTION: 
 a) 10
 b) Box #0 [10].
 c) Box contains [10].
@@ -18671,7 +18671,7 @@ $ javac Output.javac
 $ java Output
 Box #0 contains [10].
 
-2124. QUESTION:
+2124. QUESTION: 
 a) 0
 b) 1
 c) [1].
@@ -18692,7 +18692,7 @@ $ javac Output.javac
 $ java Output
 [0]
 
-2125. QUESTION:
+2125. QUESTION: 
 a) Error
 b) Hello
 c) 36
@@ -18704,7 +18704,7 @@ $ javac Output.javac
 $ java Output
 Hello 36
 
-2126. QUESTION:
+2126. QUESTION: 
 a) 10
 b) Box #0 [10].
 c) Box contains [10].
@@ -19051,7 +19051,7 @@ d) No classes can be replaced by each other
 Answer: a
 Explanation: Liskov substitution principle states that Objects in a program should be replaceable with instances of their sub types without altering the correctness of that program.
 
-2168. QUESTION:
+2168. QUESTION: 
 a) ICust can be replaced with RegularCustomer
 b) RegularCustomer can be replaced with OneTimeCustomer
 c) OneTimeCustomer can be replaced with RegularCustomer
@@ -19059,7 +19059,7 @@ d) We can instantiate objects of ICust
 Answer: a
 Explanation: According to Liskov substitution principle we can replace ICust with RegularCustomer or OneTimeCustomer without affecting functionality.
 
-2169. QUESTION:
+2169. QUESTION: 
 a) Compilation failure
 b) Runtime failure
 c) 1
@@ -19067,7 +19067,7 @@ d) 2
 Answer: d
 Explanation: Child object can be assigned to parent variable without change in behaviour.
 
-2170. QUESTION:
+2170. QUESTION: 
 a) Compilation failure
 b) 3
 c) 1
@@ -19075,7 +19075,7 @@ d) 2
 Answer: b
 Explanation: Child object can be assigned to parent variable without change in behaviour.
 
-2171. QUESTION:
+2171. QUESTION: 
 a) Compilation failure
 b) 3
 c) 1
@@ -19083,7 +19083,7 @@ d) 2
 Answer: a
 Explanation: Parent object cannot be assigned to child class.
 
-2172. QUESTION:
+2172. QUESTION: 
 a) Compilation failure
 b) 3
 c) Runtime Exception
@@ -19091,7 +19091,7 @@ d) 2
 Answer: c
 Explanation: ClassCastException is thrown as we cannot assign parent object to child variable.
 
-2173. QUESTION:
+2173. QUESTION: 
 a) Compilation failure
 b) 3
 c) Runtime Exception
@@ -19100,7 +19100,7 @@ Answer: a
 Explanation: We cannot assign one child class object to another child class variable.
 interface Shape {	public int area();}public class Square implements Shape {	public int area()        {		return 2;	}}public class Rectangle implements Shape {	public int area()        {		return 3;	}}
 
-2174. QUESTION:
+2174. QUESTION: 
 a) Compilation failure
 b) 3
 c) Runtime Exception
@@ -19108,7 +19108,7 @@ d) 2
 Answer: a
 Explanation: Interface cannot be instantiated. So we cannot create instances of shape.
 
-2175. QUESTION:
+2175. QUESTION: 
 a) Compilation failure
 b) 3
 c) Runtime Exception
@@ -19116,7 +19116,7 @@ d) 2
 Answer: b
 Explanation: With parent class variable we can access methods declared in parent class. If the parent class variable is assigned child class object than it accesses the method of child class.
 
-2176. QUESTION:
+2176. QUESTION: 
 a) Compilation failure
 b) 3
 c) Runtime Exception
@@ -19148,7 +19148,7 @@ d) Catch
 Answer: c
 Explanation: In case of exit, the program exits abruptly hence would never be able to debug the root cause of the issue.
 
-2180. QUESTION:
+2180. QUESTION: 
 a) i
 b) ii
 c) option (i) causes compilation error
@@ -19172,7 +19172,7 @@ d) System.getProcessingTime()
 Answer: b
 Explanation: System.nanoTime takes around 1/100000 th of a second whereas System.currentTimeMillis takes around 1/1000th of a second.
 
-2183. QUESTION:
+2183. QUESTION: 
 a) Option (i)
 b) Option (ii)
 c) Compilation Error
@@ -19204,7 +19204,7 @@ d) for(int i=99; i>0; i++)
 Answer: b
 Explanation: reverse traversal of array take half number cycles as compared to forward traversal. The other for loops will go in infinite loop.
 
-2187. QUESTION:
+2187. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -19216,7 +19216,7 @@ $ javac Output.javac
 $ java Output
 Hello
 
-2188. QUESTION:
+2188. QUESTION: 
 a) 0
 b) 36
 c) Runtime Error
@@ -19237,7 +19237,7 @@ $ javac Output.javac
 $ java Output
 36
 
-2189. QUESTION:
+2189. QUESTION: 
 a) Error
 b) Hello
 c) 36
@@ -19249,7 +19249,7 @@ $ javac Output.javac
 $ java Output
 Hello 36
 
-2190. QUESTION:
+2190. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -19260,7 +19260,7 @@ Output:
 $ javac Output.javac
 $ java Output
 
-2191. QUESTION:
+2191. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -19327,7 +19327,7 @@ d) All of the mentioned
 Answer: a
 Explanation:  Type inference, allows you to invoke a generic method as an ordinary method, without specifying a type between angle brackets.
 
-2199. QUESTION:
+2199. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -19339,7 +19339,7 @@ $ javac Output.javac
 $ java Output
 Hello
 
-2200. QUESTION:
+2200. QUESTION: 
 a) 0
 b) 36
 c) Runtime Error
@@ -19360,7 +19360,7 @@ $ javac Output.javac
 $ java Output
 36
 
-2201. QUESTION:
+2201. QUESTION: 
 a) Error
 b) Hello
 c) 36
@@ -19396,7 +19396,7 @@ d) Set
 Answer: a
 Explanation: None.
 
-2205. QUESTION:
+2205. QUESTION: 
 a) 10
 b) Box #0 [10].
 c) Box contains [10].
@@ -19417,7 +19417,7 @@ $ javac Output.java
 $ java Output
 Box #0 contains [10]
 
-2206. QUESTION:
+2206. QUESTION: 
 a) Error
 b) Hello
 c) 36
@@ -19429,7 +19429,7 @@ $ javac Output.java
 $ java Output
 Hello 36
 
-2207. QUESTION:
+2207. QUESTION: 
 a) 5.0
 b) 7.0
 c) 8.0
@@ -19441,7 +19441,7 @@ $ javac Output.java
 $ java Output
 7.0
 
-2208. QUESTION:
+2208. QUESTION: 
 a) 1
 b) 2
 c) 3
@@ -19453,7 +19453,7 @@ $ javac Output.java
 $ java Output
 1
 
-2209. QUESTION:
+2209. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -19503,7 +19503,7 @@ d) lower
 Answer: b
 Explanation: A lower bounded wildcard is expressed using the wildcard character (‘?’), following by the super keyword, followed by its lower bound: .
 
-2215. QUESTION:
+2215. QUESTION: 
 a) 0
 b) 4
 c) 5.0
@@ -19515,7 +19515,7 @@ $ javac Output.javac
 $ java Output
 6.0
 
-2216. QUESTION:
+2216. QUESTION: 
 a) 5.0
 b) 7.0
 c) 8.0
@@ -19536,7 +19536,7 @@ $ javac Output.javac
 $ java Output
 7.0
 
-2217. QUESTION:
+2217. QUESTION: 
 a) H
 b) Hello
 c) Runtime Error
@@ -20469,7 +20469,7 @@ d) CloseException
 Answer: c
 Explanation: InterruptedException interacts with a thread’s interrupted status and runtime misbehavior is likely to occur if an InterruptedException is suppressed.
 
-2332. QUESTION:
+2332. QUESTION: 
 a) Runtime Error
 b) IOException
 c) Compilation Error

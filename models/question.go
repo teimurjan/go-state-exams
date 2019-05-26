@@ -8,14 +8,15 @@ import (
 
 // Question model
 type Question struct {
-	Title    string
-	Variants map[string]string
-	Answer   string
+	Title       string
+	Variants    map[string]string
+	Answer      string
+	Explanation string
 }
 
 // NewQuestion creates a new question from string
 func NewQuestion(questionStr string) *Question {
-	questionRegex := regexp.MustCompile(`QUESTION: (?P<question>.*)\na\) (?P<a>.*)\nb\) (?P<b>.*)(\nc\) (?P<c>.*))?(\nd\) (?P<d>.*))?\nAnswer: (?P<answer>.*)\n`)
+	questionRegex := regexp.MustCompile(`QUESTION: (?P<question>.*)\na\) (?P<a>.*)\nb\) (?P<b>.*)(\nc\) (?P<c>.*))?(\nd\) (?P<d>.*))?\nAnswer: (?P<answer>.*)\nExplanation: (?P<explanation>.*)\n`)
 
 	namedMap := utils.GetNamedMap(questionStr, questionRegex)
 
@@ -23,6 +24,10 @@ func NewQuestion(questionStr string) *Question {
 
 	if title, ok := namedMap["question"]; ok {
 		question.Title = title
+	}
+
+	if explanation, ok := namedMap["explanation"]; ok {
+		question.Explanation = explanation
 	}
 
 	if a, ok := namedMap["a"]; ok {
@@ -54,5 +59,30 @@ func (q *Question) String() string {
 		answer = q.Answer
 	}
 
-	return q.Title + "\n*Answer: " + answer
+	title := ""
+	if len(q.Title) > 0 {
+		title = q.Title
+	} else if len(q.Explanation) > 0 && q.Explanation != "None." {
+		title = q.Explanation
+	} else {
+		title = "Unnamed question with variants: " + q.VariantsString()
+	}
+
+	return title + "\n*Answer: " + answer + "*"
+}
+
+// SearchString returns a unique string to perform search
+func (q *Question) SearchString() string {
+	return q.Title + " " + q.VariantsString()
+}
+
+// VariantsString returns a string repr of the question variants
+func (q *Question) VariantsString() string {
+	variantsStr := ""
+
+	for k, v := range q.Variants {
+		variantsStr += k + ")" + v + " "
+	}
+
+	return variantsStr
 }
