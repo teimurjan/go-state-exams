@@ -9,7 +9,7 @@ import (
 	"github.com/teimurjan/go-state-exams/utils"
 )
 
-const MaxResultsPerQuery = 10
+const MaxResultsPerQuery = 20
 
 // QuestionRepo is repository interface
 type QuestionRepo interface {

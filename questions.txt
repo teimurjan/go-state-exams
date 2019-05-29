@@ -1467,7 +1467,6 @@ Answer: a
 Explanation: Structural perspective is used to define the static structure of classes in a system and their associations.
 
 188. QUESTION: Which system model is being depicted by the ATM operations shown below:
-
 a) Structural model
 b) Context model
 c) Behavioral model
@@ -1649,7 +1648,6 @@ Answer: d
 Explanation: A sociotechnical system is a system that includes people, software, and hardware to show that you need to take a systems perspective on security and dependability.
 
 212. QUESTION: Which layer is missing in the sociotechnical system stack as shown below:
-
 a) organizational layer
 b) application layer
 c) physical layer
@@ -4821,7 +4819,6 @@ Answer: b
 Explanation: A use case diagrams captures only the functionality of the system whereas a dynamic model/view captures the functions as well as the action.
 
 619. QUESTION: What type of core-relationship is represented by the symbol in the figure below?
-
 a) Aggregation
 b) Dependency
 c) Generalization
@@ -4830,7 +4827,6 @@ Answer: a
 Explanation: None.
 
 620. QUESTION: Which core element of UML is being shown in the figure?
-
 a) Node
 b) Interface
 c) Class
@@ -4839,7 +4835,6 @@ Answer: d
 Explanation: The figure is self explanatory. A component is a modular, significant and replaceable part of the system that packages implementation and exposes a set of interfaces.
 
 621. QUESTION: What type of relationship is represented by Shape class and Square ?
-
 a) Realization
 b) Generalization
 c) Aggregation
@@ -4886,7 +4881,6 @@ Answer: d
 Explanation: The nine UML diagrams include use-case, sequence, collaboration, activity, state-chart, deployment, class, object and component.
 
 627. QUESTION: Which UML diagram is shown below?
-
 a) Use Case
 b) Collaboration Diagram
 c) Class Diagram
@@ -4895,7 +4889,6 @@ Answer: a
 Explanation: None.
 
 628. QUESTION: Which UML diagram is shown below?
-
 a) Use Case
 b) State Chart
 c) Activity
@@ -4904,7 +4897,6 @@ Answer: b
 Explanation: None.
 
 629. QUESTION: Which UML diagram is shown below?
-
 a) Use Case
 b) Collaboration Diagram
 c) Sequence Diagram
@@ -4913,7 +4905,6 @@ Answer: c
 Explanation: None.
 
 630. QUESTION: Which UML diagram’s symbols are shown below?
-
 a) Deployment diagram
 b) Collaboration Diagram
 c) Component Diagram
@@ -4922,7 +4913,6 @@ Answer: a
 Explanation: None.
 
 631. QUESTION: Which UML diagram is shown below?
-
 a) Deployment diagram
 b) Collaboration Diagram
 c) Object Diagram
@@ -4931,7 +4921,6 @@ Answer: d
 Explanation: None.
 
 632. QUESTION: Which UML diagram is shown below?
-
 a) Activity
 b) State chart
 c) Sequence
@@ -4940,7 +4929,6 @@ Answer: a
 Explanation: None.
 
 633. QUESTION: Which UML diagram is shown below?
-
 a) Component
 b) Deployment
 c) Use Case
@@ -7934,17 +7922,7 @@ c) i j k l m
 d) None of the mentioned
 Answer: a
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac array_output.java
+	$ javac array_output.java
 $ java array_output
 i i i i i
 
@@ -8155,19 +8133,6 @@ d) DateConverter
 Answer: a
 Explanation: SimpleDateFormat can be used as
 
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist1'); });
-	
-
-
-Date now = new Date();
-SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-mm-dd'T'hh:MM:ss");
-String nowStr = sdf.format(now);
-System.out.println("Current Date: " + );
-
 1041. QUESTION: d)
 Answer: b
 Explanation: SimpleDateFormat takes a string containing pattern. sdf.format converts the Date object to String.
@@ -8296,16 +8261,6 @@ c) 0 1 2 3 4 5 6 7 8 9
 d) 1 2 3 4 5 6 7 8 9 10
 Answer: b
 Explanation: When an array is declared using new operator then all of its elements are initialized to 0 automatically. for loop body is executed 5 times as whenever controls comes in the loop i value is incremented twice, first by i++ in body of loop then by ++i in increment condition of for loop.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
 $ javac array_output.java
 $ java array_output
 1 2 3 4 5
@@ -8485,17 +8440,7 @@ c) 0 1 2 3 4 5 6 7 8 9
 d) 1 2 3 4 5 6 7 8 9 10
 Answer: a
 Explanation: When an array is declared using new operator then all of its elements are initialized to 0 automatically. for loop body is executed 5 times as whenever controls comes in the loop i value is incremented twice, first by i++ in body of loop then by ++i in increment condition of for loop.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac array_output.java
+	$ javac array_output.java
 $ java array_output
 0 2 4 6 8
 
@@ -8518,17 +8463,7 @@ c) 6
 d) 1
 Answer: d
 Explanation: Array arr contains 10 elements. n contains 6 thus in next line n is given value 2 printing arr[2]/2 i:e 2/2 = 1.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac evaluate.java
+	$ javac evaluate.java
 $ java evaluate
 1
 
@@ -8783,17 +8718,7 @@ c) 7 5
 d) 5 2
 Answer: a
 Explanation: And operator produces 1 bit if both operand are 1. Or operator produces 1 bit if any bit of the two operands in 1.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac bitwise_operator.java
+	$ javac bitwise_operator.java
 $ java bitwise_operator
 7 2
 
@@ -8880,17 +8805,7 @@ c) true
 d) false
 Answer: d
 Explanation: Operator > returns a boolean value. 5 is not greater than 6 therefore false is returned.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Relational_operator.java
+	$ javac Relational_operator.java
 $ java Relational_operator
 false
 
@@ -8901,10 +8816,6 @@ c) true false
 d) false true
 Answer: d
 Explanation: Operator | returns true if any one operand is true, thus ‘c = true | false’ is true. Operator & returns a true if both of the operand is true thus d is false. Ternary operator  ?: assigns left of ‘:’ if condition is true and right hand of ‘:’ if condition is false. d is false thus e = d ? b : c , assigns c to e , e contains true.
-output:
-$ javac bool_operator.java
-$ java bool_operator
-false true
 
 1117. QUESTION: 
 a) 0
@@ -8913,19 +8824,6 @@ c) 3
 d) -4
 Answer: c
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac ternary_operator.java
-$ java ternary_operator
-3
 
 1118. QUESTION: 
 a) 1
@@ -9010,17 +8908,7 @@ c) 27 8
 d) 27 9
 Answer: d
 Explanation: Operator ++ has higher precedence than multiplication operator, *, x is incremented to 9 than multiplied with 3 giving 27.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac operators.java
+	$ javac operators.java
 $ java operators
 27 9
 
@@ -9111,19 +8999,6 @@ c) 14
 d) compilation error
 Answer: b
 Explanation: Using comma operator, we can include more than one statement in the initialization and iteration portion of the for loop. Therefore both ++i and j = i + 1 is executed i gets the value – 0,1,2,3,4 & j gets the values -0,1,2,3,4,5.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac comma_operator.java
-$ java comma_operator
-6
 
 1137. QUESTION: 
 a) 1 3 5 7
@@ -9548,17 +9423,7 @@ c) 0
 d) 1
 Answer: b
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output 
 true
 
@@ -9889,17 +9754,7 @@ c) 7
 d) 8
 Answer: c
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Overload_methods.java
+	$ javac Overload_methods.java
 $ java Overload_methods
 7
 
@@ -9922,17 +9777,7 @@ c) 6.4 6
 d) 4 6.4
 Answer: d
 Explanation: For obj.add(a,a); ,the function in line number 4 gets executed and value of x is 4. For the next function call, the function in line number 7 gets executed and value of y is 6.4
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Overload_methods.java
+	$ javac Overload_methods.java
 $ java Overload_methods 
 4 6.4
 
@@ -10019,17 +9864,7 @@ c) Runtime Error
 d) Compilation Error
 Answer: b
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac access_specifier.java
+	$ javac access_specifier.java
 $ java access_specifier 
 3 3
 
@@ -10186,17 +10021,7 @@ c) 3 2
 d) 1 5
 Answer: d
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac static_specifier.java
+	$ javac static_specifier.java
 $ java static_specifier
 1 5
 
@@ -10219,17 +10044,7 @@ c) 7 9
 d) 9 7
 Answer: c
 Explanation: None.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac static_use.java
+	$ javac static_use.java
 $ java static_use
 7 9
 
@@ -10898,17 +10713,7 @@ c) 1
 d) Compilation Error
 Answer: a
 Explanation: obj1 and obj2 are two different objects. equals() is a method of Object class, Since Object class is superclass of every class it is available to every object.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 false
 
@@ -10995,17 +10800,7 @@ c) Runtime Error
 d) Compilation Error
 Answer: a
 Explanation: Keyword super is used to call constructor of class A by constructor of class B. Constructor of a initializes i & j to 1 & 2 respectively.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac super_use.java
+	$ javac super_use.java
 $ java super_use
 1 2
 
@@ -11084,17 +10879,7 @@ c) 2 3
 d) 3 2
 Answer: c
 Explanation: None
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac inheritance.java
+	$ javac inheritance.java
 $ java inheritance
 2 3
 
@@ -11253,17 +11038,7 @@ c) CDA
 d) ABCD
 Answer: b
 Explanation: ascii is an array of  integers which contains ascii codes of Characters A, B, C, D. String(ascii, 1, 3) is an constructor which initializes s with Characters corresponding to ascii codes stored in array ascii, starting position being given by 1 & ending position by 3, Thus s stores BCD.
-output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac String_demo.java
+	$ javac String_demo.java
 $ java String_demo 
 BCD
 
@@ -11425,17 +11200,7 @@ c) true false
 d) false true
 Answer: d
 Explanation: The == operator compares two object references to see whether they refer to the same instance, where as equals() compares the content of the two objects.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 false true
 
@@ -11621,17 +11386,7 @@ d) 1 14 8 15
 Answer: d
 Explanation: indexof(‘c’) and lastIndexof(‘c’) are pre defined function which are used to get the index of first and last occurrence of
 the character pointed by c in the given array.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 1 14 8 15
 
@@ -11654,17 +11409,7 @@ c) Helloworld
 d) Hello World
 Answer: d
 Explanation: append() method of class StringBuffer is used to concatenate the string representation to the end of invoking string.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 Hello World
 
@@ -11736,17 +11481,7 @@ c) 6
 d) 7
 Answer: b
 Explanation: length() method is used to obtain length of StringBuffer object, length of “Hello” is 5.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 5
 
@@ -11768,17 +11503,7 @@ c) Hxllo
 d) Hexlo
 Answer: c
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 Hxllo
 
@@ -11965,17 +11690,7 @@ c) 256
 d) 257
 Answer: b
 Explanation: i.byteValue() method returns the value of wrapper i as a byte value. i is 257, range of byte is 256 therefore i value exceeds byte range by 1 hence 1 is returned and stored in x.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 1
 
@@ -12070,17 +11785,7 @@ c) GHIJKL ABCDEF
 d) GHIJKL GHIJKL
 Answer: a
 Explanation: System.arraycopy() is a method of class System which is used to copy a string into another string.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 ABCDEF ABCDEF
 
@@ -12171,17 +11876,7 @@ c) 3.0
 d) 3.1
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 3
 
@@ -12268,17 +11963,7 @@ c) GHIJKL ABCDEF
 d) GHIJKL GHIJKL
 Answer: a
 Explanation: System.arraycopy() is a method of class System which is used to copy a string into another string.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 ABCDEF ABCDEF
 
@@ -12373,17 +12058,7 @@ c) 256
 d) 257
 Answer: d
 Explanation: i.intValue() method returns the value of wrapper i as a Integer. i is 257.578 is double number when converted to an integer data type its value is 257.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 257
 
@@ -12478,17 +12153,7 @@ c) java/system
 d) \java\system
 Answer: d
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac files.java
+	$ javac files.java
 $ java files
 \java\system
 
@@ -12672,17 +12337,7 @@ c) abcde
 d) abcdef
 Answer: a
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Chararrayinput.java
+	$ javac Chararrayinput.java
 $ java Chararrayinput
 abc
 
@@ -12912,17 +12567,7 @@ c) 0 0 0 0
 d) System Dependent
 Answer: b
 Explanation: clone() method of object class is used to generate duplicate copy of the object on which it is called. Copy of obj1 is generated and stored in obj2.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 1 2 1 2
 
@@ -13001,17 +12646,7 @@ c) 1.7976931348623157E30
 d) None of the mentioned
 Answer: b
 Explanation: The super class of Double class defines a constant MAX_VALUE above which a number is considered to be infinity. MAX_VALUE is 1.7976931348623157E308.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 1.7976931348623157E308
 
@@ -13307,17 +12942,7 @@ c) 3.0
 d) 3.1
 Answer: a
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 0
 
@@ -13380,17 +13005,7 @@ c) class X
 d) class Y
 Answer: c
 Explanation: getSuperClass() returns the super class of an object. b is an object of class Y which extends class X , Hence Super class of b is X. therefore class X is printed.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 class X
 
@@ -13457,17 +13072,7 @@ c) a
 d) b
 Answer: a
 Explanation: getClass() is used to obtain the class of an object, here ‘a’ is an object of class ‘X’. hence a.getClass() returns ‘X’ which is stored in class Class object obj.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 X
 
@@ -13732,17 +13337,7 @@ c) 2.1E10
 d) deserialization
 Answer: d
 Explanation: x = ois.readInt(); will try to read an integer value from the stream ‘serial’ created before, since stream contains an object of Myclass hence error will occur and it will be catched by catch printing deserialization.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac serialization.java
+	$ javac serialization.java
 $ java serialization
 deserialization
 
@@ -13904,17 +13499,7 @@ c) 2.1E10
 d) deserialization
 Answer: d
 Explanation: x = ois.readInt(); will try to read an integer value from the stream ‘serial’ created before, since stream contains an object of Myclass hence error will occur and it will be catched by catch printing deserialization.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac serialization.java
+	$ javac serialization.java
 $ java serialization
 deserialization
 
@@ -14017,17 +13602,7 @@ c) true
 d) false
 Answer: d
 Explanation: InetAddress obj1 = InetAddress.getByName(“cisco.com”); creates object obj1 having DNS and IP address of cisco.com, InetAddress obj2 = InetAddress.getByName(“sanfoundry.com”); creates obj2 having DNS and IP address of sanfoundry.com, since both these address point to two different locations false is returned by obj1.equals(obj2);.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac networking.java
+	$ javac networking.java
 $ java networking 
 false
 
@@ -14260,17 +13835,7 @@ c) -1
 d) garbage value
 Answer: c
 Explanation: Since we have not explicitly set the port default value that is -1 is printed.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac networking.java
+	$ javac networking.java
 $ java networking 
 -1
 
@@ -14357,17 +13922,7 @@ c) Compilation Error
 d) Runtime Error
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac networking.java
+	$ javac networking.java
 $ java networking 
 127
 
@@ -14522,17 +14077,7 @@ c) 2
 d) Any Garbage Value
 Answer: c
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 2
 
@@ -14711,16 +14256,6 @@ b) False
 Answer: a
 Explanation: If we make a copy of array before any changes to the array the content will not change. Else the content of the array will undergo changes.
 
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-public void setMyArray(String[] myArray){	if(myArray == null)        {		this.myArray = new String[0];		}         else         {		this.myArray = Arrays.copyOf(newArray, newArray.length);	} }
-
 1712. QUESTION: What is the default clone of HashSet?
 a) Deep clone
 b) Shallow clone
@@ -14862,17 +14397,7 @@ c) [A, B, C, D].
 d) [A, B, C].
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Linkedlist.java
+	$ javac Linkedlist.java
 $ java Linkedlist
 [B, C]
 
@@ -14967,17 +14492,7 @@ c) {1, 2, 3}
 d) [1, 2, 3].
 Answer: a
 Explanation: keySet() method returns a set containing all the keys used in the invoking map. Here keys are characters A, B & C. 1, 2, 3 are the values given to these keys.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Maps.java
+	$ javac Maps.java
 $ java Maps 
 [A, B, C].
 
@@ -15374,17 +14889,7 @@ c) Program prints all the data members of ‘java.awt.Dimension’ package
 d) program prints all the methods and data member of ‘java.awt.Dimension’ package
 Answer: c
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Additional_packages.java
+	$ javac Additional_packages.java
 $ java Additional_packages
 public int java.awt.Dimension.width
 public int java.awt.Dimension.height
@@ -15556,17 +15061,7 @@ c) 2
 d) 2 1 8 5
 Answer: b
 Explanation: Collections.reverse(list) reverses the given list, the list was 2->8->5->1 after reversing it became 1->5->8->2.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Collection_iterators.java
+	$ javac Collection_iterators.java
 $ java Collection_iterators
 1 5 8 2
 
@@ -15713,17 +15208,7 @@ c) true
 d) false
 Answer: c
 Explanation: obj1 and obj2 are an object of class ArrayList hence it is a dynamic array which can increase and decrease its size. obj.add(“X”) adds to the array element X and obj.add(1,”X”) adds element x at index position 1 in the list, Both the objects obj1 and obj2 contain same elements i:e A & B thus obj1.equals(obj2) method returns true.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Arraylist.java
+	$ javac Arraylist.java
 $ java Arraylist
 true
 
@@ -15810,17 +15295,7 @@ c) 1 2 5 8
 d) 2 1 8 5
 Answer: c
 Explanation: Collections.sort(list) sorts the given list, the list was 2->8->5->1 after sorting it became 1->2->5->8.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Collection_Algos.java
+	$ javac Collection_Algos.java
 $ java Collection_Algos
 1 2 5 8
 
@@ -15960,17 +15435,7 @@ c) Compilation Error
 d) Runtime Error
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac exception_handling.java
+	$ javac exception_handling.java
 $ java exception_handling
 B
 
@@ -16241,17 +15706,7 @@ c) Compilation Error
 d) Runtime Error
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac exception_handling.java
+	$ javac exception_handling.java
 $ java exception_handling
 1
 
@@ -16556,17 +16011,7 @@ c) Exception
 d) Runtime Error
 Answer: d
 Explanation: join() method of Thread class waits for thread being called to finish or terminate, but here we have no condition which can terminate the thread, hence code ‘t.join()’ leads to runtime error and nothing will be printed on the screen.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac multithreaded_programing.java
+	$ javac multithreaded_programing.java
 $ java multithreaded_programing
 
 1900. QUESTION: 
@@ -16624,17 +16069,7 @@ c) Compilation Error
 d) Runtime Error
 Answer: a
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac multithreaded_programing.java
+	$ javac multithreaded_programing.java
 $ java multithreaded_programing
 My Thread
 
@@ -16716,17 +16151,7 @@ c) Thread[main,5,main].
 d) Thread[New Thread,5,main].
 Answer: d
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac multithreaded_programing.java
+	$ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[New Thread,5,main]
 
@@ -16825,17 +16250,7 @@ c) 0
 d) 1
 Answer: b
 Explanation: The output of program is Thread[main,5,main], in this priority assigned to the thread is 5. It’s the default value. Since we have not named the thread they are named by the group to they belong i:e main method.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac multithreaded_programing.java
+	$ javac multithreaded_programing.java
 $ java multithreaded_programing
 Thread[main,5,main]
 
@@ -16996,17 +16411,7 @@ c) Main thread interrupted
 d) None of the mentioned
 Answer: b
 Explanation: Thread.sleep(1000) has caused all the threads to be suspended for some time, hence onj1.t.isAlive() returns false.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac multithreaded_programing.java
+	$ javac multithreaded_programing.java
 $ java multithreaded_programing
 false
 
@@ -17101,17 +16506,7 @@ c) abc’def/’egh
 d) abcqfghq
 Answer: a
 Explanation: \’ is used for single quotes that is for representing ‘ .
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Input_Output.java
+	$ javac Input_Output.java
 $ java Input_Output
 abc'
 
@@ -17166,17 +16561,7 @@ c) World
 d) Hello stop World
 Answer: d
 Explanation: “stop” will be able to terminate the do-while loop only when it occurs singly in a line. “Hello stop World” does not terminate the loop.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Input_Output.java
+	$ javac Input_Output.java
 $ java Input_Output
 Hello stop World
 
@@ -17256,17 +16641,7 @@ d) 4 3 6 9
 Answer: a
 Explanation: indexof(‘c’) and lastIndexof(‘c’) are pre defined function which are used to get the index of first and last occurrence of
 the character pointed by c in the given array.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac output.java
+	$ javac output.java
 $ java output
 6 4 6 9
 
@@ -17534,17 +16909,7 @@ c) 55:03:04
 d) 03:55:04
 Answer: d
 Explanation: The code “sdf = new SimpleDateFormat(“hh:mm:ss”);” create a SimpleDataFormat class with format hh:mm:ss where h is hours, m is month and s is seconds.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Date_formatting.java
+	$ javac Date_formatting.java
 $ java Date_formatting
 03:55:04
 
@@ -18144,17 +17509,7 @@ c) Compilation Error
 d) Nothing is displayed
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac LOCALE_CLASS.java
+	$ javac LOCALE_CLASS.java
 $ java LOCALE_CLASS
 INDIA
 
@@ -18397,17 +17752,7 @@ c) 4 1
 d) 1 4
 Answer: c
 Explanation: class displayA implements the interface calculate by doubling the value of item, where as class displayB implements the interface by dividing item by item, therefore variable x of class displayA stores 4 and variable x of class displayB stores 1.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac interfaces.java
+	$ javac interfaces.java
 $ java interfaces
 4 1
 
@@ -18560,17 +17905,7 @@ c) Program prints all the data members of ‘java.awt.Dimension’ package
 d) program prints all the methods and data member of ‘java.awt.Dimension’ package
 Answer: c
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Additional_packages.java
+	$ javac Additional_packages.java
 $ java Additional_packages
 public int java.awt.Dimension.width
 public int java.awt.Dimension.height
@@ -18678,17 +18013,7 @@ c) [1].
 d) [0].
 Answer: d
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.javac
+	$ javac Output.javac
 $ java Output
 [0]
 
@@ -18834,16 +18159,6 @@ c) parallel and random
 d) random and synchronized
 Answer: a
 Explanation: Sequential stream and parallel stream are two types of stream provided by java.
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-Stream<Integer> sequentialStream = myList.stream();Stream<Integer> parallelStream = myList.parallelStream();
 
 2142. QUESTION: Which feature of java 8 enables us to create a work stealing thread pool using all available processors at its target?
 a) workPool
@@ -19223,17 +18538,7 @@ c) Runtime Error
 d) Compilation Error
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.javac
+	$ javac Output.javac
 $ java Output
 36
 
@@ -19346,17 +18651,7 @@ c) Runtime Error
 d) Compilation Error
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.javac
+	$ javac Output.javac
 $ java Output
 36
 
@@ -19403,17 +18698,7 @@ c) Box contains [10].
 d) Box #0 contains [10].
 Answer: d
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
-	
-
-
-$ javac Output.java
+	$ javac Output.java
 $ java Output
 Box #0 contains [10]
 
@@ -19522,17 +18807,7 @@ c) 8.0
 d) 6.0
 Answer: b
 Explanation: None.
-Output:
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
-$ javac Output.javac
+	$ javac Output.javac
 $ java Output
 7.0
 
@@ -19617,16 +18892,6 @@ c) destruction
 d) destruction-method
 Answer: b
 Explanation: destroy-method is used to specify the destruction method.
-
-advertisement
-
-
-
-	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
-	
-
-
- <bean id = "helloWorld" class = "com.tutorialspoint.HelloWorld" destroy-method = "destroy" />
 
 2227. QUESTION: How to specify autowiring by name?
 a) @Qualifier

@@ -16,7 +16,7 @@ type Question struct {
 
 // NewQuestion creates a new question from string
 func NewQuestion(questionStr string) *Question {
-	questionRegex := regexp.MustCompile(`QUESTION: (?P<question>.*)\na\) (?P<a>.*)\nb\) (?P<b>.*)(\nc\) (?P<c>.*))?(\nd\) (?P<d>.*))?\nAnswer: (?P<answer>.*)\nExplanation: (?P<explanation>.*)\n`)
+	questionRegex := regexp.MustCompile(`QUESTION: (?P<question>.*)\n(a\)\s(?P<a>.*)\n)?(b\)\s(?P<b>.*)\n)?(c\)\s(?P<c>.*)\n)?(d\)\s(?P<d>.*)\n)?(Answer:\s(?P<answer>.*)\n)?(Explanation:\s(?P<explanation>.*)\n)?`)
 
 	namedMap := utils.GetNamedMap(questionStr, questionRegex)
 
