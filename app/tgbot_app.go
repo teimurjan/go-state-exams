@@ -11,6 +11,9 @@ import (
 	"github.com/teimurjan/go-state-exams/repo"
 )
 
+// ErrMsgText is a message when there is an error status
+const ErrMsgText = "Can't send the results via a single message. Try to be more precise."
+
 // TgBotApp is an interface for telegram bot application
 type TgBotApp interface {
 	Start()
@@ -86,5 +89,10 @@ func (tgBotApp *tgBotApp) handleText(update *tgbotapi.Update) {
 
 	msg := tgbotapi.NewMessage(update.Message.Chat.ID, msgText)
 	msg.ParseMode = tgbotapi.ModeMarkdown
-	tgBotApp.botAPI.Send(msg)
+
+	_, err := tgBotApp.botAPI.Send(msg)
+	if err != nil {
+		errMsg := tgbotapi.NewMessage(update.Message.Chat.ID, ErrMsgText)
+		tgBotApp.botAPI.Send(errMsg)
+	}
 }
